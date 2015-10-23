@@ -1,0 +1,1280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00035A65AC1449426850F4FE72ABE1C5 /* IFTTTTextColorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB18E4243D31449BBE5499A578CD6D /* IFTTTTextColorAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		0131772C4D3E830CE030390052C86992 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDE902EC13B3AC91F3256B508C9765E /* CoreData.framework */; };
+		019A7A1B87BB1CAFD16C590BB92486E8 /* NSManagedObject+MagicalAggregation.m in Sources */ = {isa = PBXBuildFile; fileRef = F22A66757D75DB40924350B0B428CF94 /* NSManagedObject+MagicalAggregation.m */; };
+		02D509407F61BAD1CB33397CA840E29A /* NSManagedObjectContext+MagicalSaves.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB3EF77761D4C1223E01E6C80BF1F1 /* NSManagedObjectContext+MagicalSaves.m */; };
+		038339AE7E3BA1FDAF8D817501D2BFD1 /* IFTTTAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F32CF531319AA508443E05DB6CBC17E /* IFTTTAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		04327154F166975A9C0E98E03A76286C /* IFTTTPathPositionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6C12765CA448F070976F05A3FB1213 /* IFTTTPathPositionAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		0843FA13C0571900FFA7D525A6B48EBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9529DEED33495248491F2D516A1535A /* CoreGraphics.framework */; };
+		08CE27802681835B9F2EF19F8958DF7E /* JTVerticalCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C698763F1E3B582147766BE9346A5EF /* JTVerticalCalendarView.h */; };
+		0A2255051D438F695DEFD56940263684 /* NSString+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D93B1C536852E7873947F843E6BE58 /* NSString+MagicalDataImport.m */; };
+		0F208A4BCF4F407AEB01983C9A194707 /* NSManagedObject+MagicalFinders.h in Headers */ = {isa = PBXBuildFile; fileRef = 66949B34AD15B0C54A6FDF9C4B311D78 /* NSManagedObject+MagicalFinders.h */; };
+		0F52A3DC384B2800B8B7E9EF42ADAEDA /* MagicalRecord+Setup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD8DF507C03467A7E63EE5579C78BAF /* MagicalRecord+Setup.h */; };
+		0F9E86F72193767BEA2BCE91169165E3 /* JTCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BB38F2234C552C8F89CD778DDC29C7 /* JTCalendarManager.m */; };
+		1243BA4546F54A721FF451745D733ECB /* MagicalRecordLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 533AEEA2C55DA2935A638BBDAAE8FA09 /* MagicalRecordLogging.h */; };
+		140930E6718A9F4C2C2608BC30091C09 /* JTCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6399F26B8F1AEC6822354A09A9B922 /* JTCalendar-dummy.m */; };
+		199590E89B89CC9D80F93DC85C5D705F /* JTCalendarDay.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB120CF267FCBD0310E7FEB6303B700 /* JTCalendarDay.h */; };
+		19D32C04FAF672577B7F6564B9ABD8AC /* IFTTTViewAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9583F06783EECA188E1D56E1020E0B /* IFTTTViewAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		1AE830CC94FAEE49353F530021BAA768 /* IFTTTAnimatedPagingScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 232325E4A59DFDCBBCC6203A9EE5AEDA /* IFTTTAnimatedPagingScrollViewController.h */; };
+		1B3299116BAF8F702B57ED9AF5ABC8FD /* IFTTTShapeLayerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A01A981A535A80E6E575D27DE39C558 /* IFTTTShapeLayerAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		1B33E485F834BB568EEF5F8C59BAA009 /* IFTTTScaleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B7D3BB4D39CCC83B90D0A34A3A30D6 /* IFTTTScaleAnimation.h */; };
+		1D7BFC416A58708562CF04068CECC643 /* JTCalendarDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB869F70D84DBBDAB060D05F2643076 /* JTCalendarDelegate.h */; };
+		1ED2CB16BB86D05FA820DCE09695620D /* MagicalRecordDeprecationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB9718EB26A20BF972D0937D179004E /* MagicalRecordDeprecationMacros.h */; };
+		1FB90F2E567A2E483FABF6FC891E73DF /* MagicalRecord+ShorthandMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B65193801913BC422754D8D529564F /* MagicalRecord+ShorthandMethods.h */; };
+		220300DDAA3664D9B4F539C0072ADE51 /* IFTTTBackgroundColorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 79722F9CF131B29AB284D870357A5692 /* IFTTTBackgroundColorAnimation.h */; };
+		257C7BF6F44117D9FCD935CCDCA5ABC4 /* NSPersistentStoreCoordinator+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 151CF4C9BAB6235F4F64C5A1BF731E6F /* NSPersistentStoreCoordinator+MagicalRecord.h */; };
+		26A0679DCFB2F51B766242CB8A1E082C /* NSManagedObject+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 66940517EBF7EC126EEA16BF303B7C31 /* NSManagedObject+MagicalRecord.h */; };
+		2880598EC138C93D92456EDD37E0F4BF /* IFTTTLayerFillColorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 599FAAFA3EAE761BDBC2FF563250B858 /* IFTTTLayerFillColorAnimation.h */; };
+		28DC8D5FAF60F348B6351B246FC07517 /* UIView+IFTTTJazzHands.h in Headers */ = {isa = PBXBuildFile; fileRef = F5BC7BE74BC4CBC50F741527A8A2C142 /* UIView+IFTTTJazzHands.h */; };
+		29A256FA3C417F2E291DCA65EC962E19 /* IFTTTConstraintConstantAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A2AC4C11F531A4883DD6E8D3BD7E7143 /* IFTTTConstraintConstantAnimation.h */; };
+		2A0F07BFBB8F813FDD140BB62E02BA10 /* NSPersistentStore+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 48361974092F729D70D2D12993DAA14B /* NSPersistentStore+MagicalRecord.m */; };
+		2BD78694F814BAAD8A238F54BC7C84D4 /* NSPersistentStore+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 67F41BC7D1D440737B8C78C717FBFB2A /* NSPersistentStore+MagicalRecord.h */; };
+		2BDAB46C1D1BEF8F39E30BE97D67CBA0 /* IFTTTFilmstrip.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D478B615AD594D9DE7854929CB62F /* IFTTTFilmstrip.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		2CF296F303E94B7B338ECFDE64860480 /* IFTTTMaskAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 82039BF4EF64DB763D083C63F84AAF18 /* IFTTTMaskAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		30A13CAAEFCAA5150169892ECC14B5FD /* MagicalRecord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF561B15BAA66DCB24ACD0408271DAB0 /* MagicalRecord-dummy.m */; };
+		3211F72E15F5D7265BD58D1225E00CBF /* MagicalRecord+Options.m in Sources */ = {isa = PBXBuildFile; fileRef = 579BDF6B3549DB9BC7DADB268DBE2BDF /* MagicalRecord+Options.m */; };
+		3390ADB578281E569B5BED6DD2E2DE9B /* NSNumber+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 29179FB6FD0553206844A6D911A3FE9D /* NSNumber+MagicalDataImport.h */; };
+		3485474876DE150D7BF40C29EA872048 /* IFTTTInterpolatable.m in Sources */ = {isa = PBXBuildFile; fileRef = C00D261AF1856706D2E964AE62D3E0A0 /* IFTTTInterpolatable.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		359204763F53320D46CCD075CE606070 /* NSAttributeDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 07930E920A79D80B4543244AD196E2B6 /* NSAttributeDescription+MagicalDataImport.h */; };
+		39557E667FC4C5AA8F525A68C793C0F4 /* NSManagedObjectModel+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E1133DE04E73607EA8411A7442CB4E /* NSManagedObjectModel+MagicalRecord.h */; };
+		3A4EDEBA4ED80F7112A18164BDA5427D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3F8086CB79BCA3D15A3E83D94D6881 /* Foundation.framework */; };
+		3B1E9F4381BCD8520D4DFD93293CEC63 /* NSManagedObjectContext+MagicalObserving.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA1755FB01D216BD692BB5F2471B17E /* NSManagedObjectContext+MagicalObserving.h */; };
+		43A0BE7AD83F9DB2A85564BA580BB2CE /* IFTTTLayerStrokeEndAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A2BD08523EDF2B0A4531C392976E3B8 /* IFTTTLayerStrokeEndAnimation.h */; };
+		44CED658C6E4F6EA6B4F1516E37FC687 /* IFTTTViewAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB198B2AF85EB3A1855668FEBE3956F /* IFTTTViewAnimation.h */; };
+		453573024F0C6F2F13A4195A140552E3 /* IFTTTJazzHands.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A148F9BB890B1C4A5D528B7BE24C59 /* IFTTTJazzHands.h */; };
+		458043A8DE4A44C4B837A327AAA3EF20 /* NSObject+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = E09BDF3B758D26B057973189E02C3000 /* NSObject+MagicalDataImport.h */; };
+		46EF2FC537AD3B1D7B8436801455B880 /* IFTTTTransform3DAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B425D7F92B816EAF26299F9A2B035AD2 /* IFTTTTransform3DAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		47817F621E8A546C0EEE1C8394FA193B /* NSManagedObject+MagicalAggregation.h in Headers */ = {isa = PBXBuildFile; fileRef = 41B8881CC109A373090500D64D46EEEB /* NSManagedObject+MagicalAggregation.h */; };
+		4E046BBEB57DB21DED81FB664E8AC399 /* IFTTTRotationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7650C42046D3C6FD96E1BC3740466D59 /* IFTTTRotationAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		4F3FAAFAE1DC053E29126D00F4CC039E /* JTCalendarPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95595F0783BE803DD8165197CB5F31CF /* JTCalendarPageView.m */; };
+		4F7BCC9D37EBCE0C724DE16842EE4097 /* NSEntityDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = E36A33A264C1A06D49735DB1C10E11B5 /* NSEntityDescription+MagicalDataImport.h */; };
+		5031403AFCF4EE79CD63A3F03C130EC0 /* MagicalImportFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1F8379024A6AFCBE800A750374F0EE /* MagicalImportFunctions.h */; };
+		54222A3A7FF6B209932F72C031BF3C2F /* NSString+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = CD84916AD3889BE36BF640A0F9480A70 /* NSString+MagicalDataImport.h */; };
+		543DA1181B6D1C527025847960F5CB0B /* IFTTTFilmstrip.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE5E811B5AA24160EA21130C07EAA42 /* IFTTTFilmstrip.h */; };
+		57EB92537F7DDE60CBE4672B2F632DAD /* NSRelationshipDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CEB85DB94CFA633D7BF9FF9379AD88 /* NSRelationshipDescription+MagicalDataImport.m */; };
+		59852E4F4191FEED14F20D48DD83AD93 /* MagicalRecordInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E14E1F0A846E8068B94C00AFC79F51 /* MagicalRecordInternal.m */; };
+		5BD933B5D78CF6718FAFE6C7051DD42B /* IFTTTAnimatedScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7680A7A1DFE67AC5927FEB634889D760 /* IFTTTAnimatedScrollViewController.h */; };
+		5CDE1E195D89C76D0649BCDB1F90C643 /* Pods-HourlyCalculation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8F260B984B19ED495FE3E8BC8CDBC /* Pods-HourlyCalculation-dummy.m */; };
+		5EEA21AEEA3613A4792F1A404AF46613 /* IFTTTConstraintConstantAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF485EB06448E0C2EBF733BF2867C16C /* IFTTTConstraintConstantAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		5EF98BE5E6D9DBA4136E9B5B6533C808 /* IFTTTInterpolatable.h in Headers */ = {isa = PBXBuildFile; fileRef = 608276616E25CCB5447D9216567E80E9 /* IFTTTInterpolatable.h */; };
+		5F4877E40FBB2E7E1D70C984DAA2056E /* MagicalRecord+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7732D5E61D8794F8AE02B4613CD34D /* MagicalRecord+Setup.m */; };
+		6012F8F1C8F81D9FFA1239D8DA0EBF0A /* NSManagedObjectContext+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 5027DC9CC074D3087E98F3705A04AD03 /* NSManagedObjectContext+MagicalRecord.m */; };
+		609A96660B269FB862D89CAF148B25F2 /* IFTTTTranslationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED2C3A448C4DB1C192B7CEB63F1E620 /* IFTTTTranslationAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		617310EC07C4687486484D2C0373C74E /* MagicalRecord+ErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = EB716038D025ED8916E32465370407D2 /* MagicalRecord+ErrorHandling.h */; };
+		630F27CE0DD9A15C6E6F5602C14F2E8D /* JTCalendarScrollManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C67D3AAAF1A5CAB51383B7FCD0D9CD /* JTCalendarScrollManager.h */; };
+		64398A86E925D9CB59B1F9CB81A4B51B /* JTHorizontalCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212E7334208C5C2BB2A98FD363FE6CC /* JTHorizontalCalendarView.m */; };
+		656846E38CF0D1E0419BE19E669D0C38 /* JTCalendarMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 661DD3F1A51768CF7EAAA9384E571C6F /* JTCalendarMenuView.m */; };
+		6690DD797195632E1C81C5CAC226DDAC /* MagicalRecord+ShorthandMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA1B2195DF8B0ED8F3503D58BFEADE3 /* MagicalRecord+ShorthandMethods.m */; };
+		68C59B70AA2DF7E5C67B63DB9C3EC87B /* NSManagedObject+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E6C0EC78BEDA33E1DAC1A7DA97A82D /* NSManagedObject+MagicalDataImport.h */; };
+		6B6DC0E2B756FE16DE36657649FAA4B9 /* IFTTTLayerStrokeStartAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E658DC53052CAFAA83E6F3C90509200 /* IFTTTLayerStrokeStartAnimation.h */; };
+		6C24B8045C30D1F135B12DDE7612509F /* NSNumber+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC010FD74A62F8E21D98E196D9D4359 /* NSNumber+MagicalDataImport.m */; };
+		6D3D61267F1CE32FF67A6D6062AE877E /* IFTTTPathPositionAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D720BD606D1339EF1932684A1D0F763 /* IFTTTPathPositionAnimation.h */; };
+		6F020C27B8E30CD364121A006536B466 /* NSManagedObjectModel+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A95558ABFE08F00D17E9EE901D0BA81B /* NSManagedObjectModel+MagicalRecord.m */; };
+		6FB015CCBF14E5B4B30D01D38284B3F6 /* JazzHands-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 222C23CF05C1ECF1297B109A4A5551D4 /* JazzHands-dummy.m */; };
+		6FBA579E55372C59387C502B488B62D9 /* IFTTTAnimatedPagingScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87A70FB3716C7A0A7DCCE00B3F24832 /* IFTTTAnimatedPagingScrollViewController.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		74A18DE72CF533245929BDCA4B83F74A /* IFTTTLayerStrokeStartAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B80B822D4046388FC53A5A89E028EBFF /* IFTTTLayerStrokeStartAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		7626903763AA3EB4C2BDC3D0A14856BF /* NSEntityDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB035C38B7797DF8A428A0CBBE213D6 /* NSEntityDescription+MagicalDataImport.m */; };
+		766613D898668B79BBB09A3CA4892EF6 /* IFTTTEasingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3120A6992B5CFCC5B397C87128BCA4E1 /* IFTTTEasingFunction.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		7822D7910C1AF4B7AC29393A1C87483B /* MagicalRecord+Actions.h in Headers */ = {isa = PBXBuildFile; fileRef = 905BB4C2C3A324E7A93DB09EEBA97707 /* MagicalRecord+Actions.h */; };
+		788D6563764DC1EE7B4D2E9481F1E33E /* IFTTTCornerRadiusAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C30246645556366C28EA044A06F6C38B /* IFTTTCornerRadiusAnimation.h */; };
+		7939D363682CDFAF5018D6DF242E8BE3 /* NSObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 99095034AA24D290D00777FD62AAC13D /* NSObject+MagicalDataImport.m */; };
+		7DBC75EA49F17695CF131CEABB3D65C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3F8086CB79BCA3D15A3E83D94D6881 /* Foundation.framework */; };
+		7DD08D30444392A197FD90CA2B4A4C18 /* JTCalendarPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 092D4447844D449A41931CDA999AAC37 /* JTCalendarPage.h */; };
+		7E0E5E935BBE4CFCBA13DE1DFF2D24BE /* NSManagedObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18CE3300C3C52B09D52C78C5E67615 /* NSManagedObject+MagicalDataImport.m */; };
+		7FD21DF057FD7963D721AFFA42F9C363 /* IFTTTAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 22268C521F56D6CA41AC43D227A56558 /* IFTTTAnimator.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		7FE0BE2EA5C037A3EEE8FAB4B21541D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E8CD05B5F293E25E35AEAAF54E2FBF /* UIKit.framework */; };
+		80CA713397A7FA3AD1F992D8CABA44E6 /* MagicalRecord+iCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C1807FA47056C8FE4B2074B45B68E8 /* MagicalRecord+iCloud.h */; };
+		834D9D493E846CF681650ED865C74794 /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 17960D40FF99367150B40EEAACB89416 /* NSPersistentStoreCoordinator+MagicalRecord.m */; };
+		83E0AE9EC65C46EF9FE05CC6C15EA86F /* NSRelationshipDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B1A3DE12F558D8F3477FCDAEE081778 /* NSRelationshipDescription+MagicalDataImport.h */; };
+		8514C0A91C6D9A31B4F45BBD62F7AFE9 /* JTCalendarWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC2CCEBC2514C00C3897BCAFC815DEC /* JTCalendarWeekView.m */; };
+		860D0970AB55B1D07F4CC07442CE48ED /* NSManagedObjectContext+MagicalThreading.m in Sources */ = {isa = PBXBuildFile; fileRef = F070989777859FE1E51F972569D5351C /* NSManagedObjectContext+MagicalThreading.m */; };
+		8A67B5F563D5D8874A60EC640483AACB /* JTCalendarDelegateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C3FD56875C341D191BD954C3E4CD4275 /* JTCalendarDelegateManager.h */; };
+		8A89F33C3840310C39DB36CC9FB5B504 /* NSAttributeDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE7507B28ED0E4D38D369E60BBF7A1A /* NSAttributeDescription+MagicalDataImport.m */; };
+		8AF83958DA1124B3FF5D3A9945874618 /* IFTTTFrameAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4862CDD6EF0CC3083E6752BCF180E51 /* IFTTTFrameAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		8CE48F6630BC12A45C7894F694F18566 /* JTDateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1D5C5C4DC358B131AB1F1AE6181967 /* JTDateHelper.h */; };
+		8F72D03D075831D9D5432EBE21334B80 /* JTVerticalCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 081FE33FB8F4B99E5509873627FEE0F3 /* JTVerticalCalendarView.m */; };
+		902B8214CF499B0CAFCD1A34B5C1102F /* NSManagedObject+MagicalFinders.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD0800C73B5758E123E62ACB3E5FEDF /* NSManagedObject+MagicalFinders.m */; };
+		90861358D599F9B206D1C9B6C14722C1 /* IFTTTBackgroundColorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 251CC9F50C178E5011D83869A0A9E204 /* IFTTTBackgroundColorAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		91CAD4F39D01183D916F62832E9B02EC /* IFTTTAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF4B820308BE9B85853BEC4315EC305 /* IFTTTAnimator.h */; };
+		931124406A2B4AFDD0648AFA2B8B2A4C /* JTDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CAA4A7C4190706B83C4DD2FE49C1C9 /* JTDateHelper.m */; };
+		935CCB603DBF5F03F8F3ADD6E27A3249 /* MagicalRecordInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ADAC4F321A00DA4CF708C66F15A00D2 /* MagicalRecordInternal.h */; };
+		939F14931368971F765611E5E15C529A /* IFTTTAlphaAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3F65A2091783A1737813045E9E102E /* IFTTTAlphaAnimation.h */; };
+		94800E8AC94067A1EF8F727C74A0C6D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3F8086CB79BCA3D15A3E83D94D6881 /* Foundation.framework */; };
+		9499B87E0E289B0C332C05E3E32A661E /* JTCalendarDayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F752F0DEF087B9363F37BF41AFFA87 /* JTCalendarDayView.h */; };
+		986E8EB0922940A84CB02CDC90637417 /* IFTTTAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6815740996983553A6272816900ED7A4 /* IFTTTAnimation.h */; };
+		99256A9D99750ED2050B9A04435075C6 /* IFTTTTranslationAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 46B57BB613C13C1BC872EFFD47F28C18 /* IFTTTTranslationAnimation.h */; };
+		99A24B35F1F3986F5C62A8C001122D89 /* NSManagedObjectContext+MagicalChainSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E70C928062D6E23EB583EECF78E6C /* NSManagedObjectContext+MagicalChainSave.m */; };
+		9A7BD6453F658D1B31A8327C3805B9B4 /* NSManagedObjectContext+MagicalChainSave.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF09798FF8F3ECD74365EF4A19AE674 /* NSManagedObjectContext+MagicalChainSave.h */; };
+		9F44A4BF03CD1D6969F5B880AF9EBC0B /* NSManagedObject+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA934F6747BB402AAD3E13E38C6512 /* NSManagedObject+MagicalRecord.m */; };
+		A069B3D7B12912C23B8B2E105A5E5487 /* JTCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 54BF1C4C06FCA0A71368AC2B8DC350D5 /* JTCalendar.h */; };
+		A26E5B0A6D7709BC56B91683F5F02EC7 /* IFTTTRotationAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DFE512BC4A72C4A84FE915566C024B /* IFTTTRotationAnimation.h */; };
+		A38A074B1197D5A6F78A96E338F39431 /* MagicalRecordShorthandMethodAliases.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E02CB9F1BD0AD9A552409C502EE99B9 /* MagicalRecordShorthandMethodAliases.h */; };
+		A8DFE702763163FEA1AC0827A4A18C6E /* MagicalRecord+Options.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE299F37752C80C347D315EF4621F1E /* MagicalRecord+Options.h */; };
+		ADA40E0AC47E51C1B6EFDDB3F34BB146 /* IFTTTAnimatedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E43D7CCFB117158F83EEDA25CEB03B6 /* IFTTTAnimatedScrollViewController.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		B0F6E714F24714752AA79C532A0ADF04 /* MagicalRecord+ErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A22BF214A60638FAE14E4613429963D /* MagicalRecord+ErrorHandling.m */; };
+		B3AA38556A29B22203A7B1C6D9D9A8E1 /* IFTTTCornerRadiusAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBFFEF5162B94115BA42EF3879606FE /* IFTTTCornerRadiusAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		B6CD099DE8D124CCB7EC4E2B1D77AA07 /* IFTTTFrameAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2658935ADE1455D9D5420FFF1D0546C3 /* IFTTTFrameAnimation.h */; };
+		B98F1804380399E86FA8464A00BFB506 /* IFTTTTransform3DAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE2CD8E0EAFC55FA9C6B5724EDAA6B7 /* IFTTTTransform3DAnimation.h */; };
+		BBDA82DA8601236CC443DE5E08DB8564 /* IFTTTScrollViewPageConstraintAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B8411E889FCDF577C68C03340478F4 /* IFTTTScrollViewPageConstraintAnimation.h */; };
+		BE083B4C6E8846D2F03084F75E424985 /* MagicalRecord+Actions.m in Sources */ = {isa = PBXBuildFile; fileRef = E64A9B80952D0A2D43319A572372855B /* MagicalRecord+Actions.m */; };
+		BF15FC5F58F231DA1FE0A59C00C2FB77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3F8086CB79BCA3D15A3E83D94D6881 /* Foundation.framework */; };
+		C21C065074BFF546476A6A5D4BEAECC2 /* MagicalRecord+iCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 845A5750335D23A0A7006169F7AAEF92 /* MagicalRecord+iCloud.m */; };
+		C33765DE1429439AF307D6AC23E22C30 /* IFTTTConstraintMultiplierAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EB816B16E1CCF8652E5333562467FED3 /* IFTTTConstraintMultiplierAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		C4277CCCC530D2BB12B57C6819D4C634 /* JTCalendarWeekView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8947444226B7DAE56605A4DE52B54013 /* JTCalendarWeekView.h */; };
+		C61C57C7D906B45B2B27C4B4A18F20F5 /* IFTTTAnimatable.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D92CEA4D226BD7E32C12F8C1732882 /* IFTTTAnimatable.h */; };
+		C7C0186888CA7EB09161166565AD2591 /* IFTTTHideAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA885501675E44D458CE58EF69DBEA2 /* IFTTTHideAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		C91EE21544F270D56C5DD225CB49700F /* NSManagedObject+MagicalRequests.h in Headers */ = {isa = PBXBuildFile; fileRef = 12DD2E625B26DD5D0D17172B2E89AE06 /* NSManagedObject+MagicalRequests.h */; };
+		C9FF2171D54608589AB9654B91DF67FF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27FD39063BF8790D58EE1A0DC0CF4D2 /* QuartzCore.framework */; };
+		CA140D37BB63F5E3789F7F06B9512349 /* JTMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A366CC80077D328089DED010A5C12ED /* JTMenu.h */; };
+		CAD91A6D3EEBA461F0EDE4D09DBD40CE /* IFTTTHideAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 03DB19CEAAA2AEA6B5F22CC95A05AD13 /* IFTTTHideAnimation.h */; };
+		CEA7F6E669960C7E4320EA8B3B88E4B1 /* IFTTTLayerStrokeEndAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8441A269A626D2B4E72DFEBA853C70B8 /* IFTTTLayerStrokeEndAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		D0AFEB3E7ECECA29DED1FFFF342CAF11 /* NSManagedObjectContext+MagicalSaves.h in Headers */ = {isa = PBXBuildFile; fileRef = 0973FD438F440EF7C933B18195876009 /* NSManagedObjectContext+MagicalSaves.h */; };
+		D16AB4123463AA730777570F66CFB30B /* JTCalendarMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = FC92A0403A0896780E80935EEF9BC0DD /* JTCalendarMenuView.h */; };
+		D2FE4DEC1FF15A9FB7463DBC09DE98B9 /* JTCalendarWeekDayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 25AA91D4C484B8F3F8E24FD9F7A7D198 /* JTCalendarWeekDayView.h */; };
+		D4D7211A6A6C64FF46F059D067D8F166 /* JTCalendarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6D4F043563E1F93E8C8E4F2477B50A /* JTCalendarManager.h */; };
+		D56B5B45ACF7952F6AB612777DFD1143 /* IFTTTMaskAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A5CE83CBBE31E6AE17769C3C7841586 /* IFTTTMaskAnimation.h */; };
+		D686F5C10A6594242A4CE3A7750E881F /* IFTTTShapeLayerAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C03C43A57C65120192CD6A85B5B6EB6C /* IFTTTShapeLayerAnimation.h */; };
+		D80B500F49F7F6B16C06BE5DC6A48147 /* UIView+IFTTTJazzHands.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C123D2C9D95515DD8D3E192080C79E /* UIView+IFTTTJazzHands.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		D82F53B4DF9B47BB6ED900E15E2B06A9 /* JTCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AD3C145602200AE347C4E760CAF865 /* JTCalendarDayView.m */; };
+		D96E2DF67332782A53BF304E68A83AED /* NSManagedObjectContext+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D8F69BFEFBAB845B6A3EB2CBC14EA27 /* NSManagedObjectContext+MagicalRecord.h */; };
+		DD4CE2ABF57761A400A08127334DA184 /* IFTTTEasingFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 191CB5F08E948A0F73C0D65646E235D1 /* IFTTTEasingFunction.h */; };
+		DE1D0DEDD6389E4E40D9C32018D6D6E1 /* NSManagedObjectContext+MagicalThreading.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A9B60B6A0F93C3F1C1CBAF8BFEB8481 /* NSManagedObjectContext+MagicalThreading.h */; };
+		DF8A244C4EEC202482BAADEF85EB38F1 /* JTCalendarPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 878A226E4DFE7BFC415BB973BF8582DA /* JTCalendarPageView.h */; };
+		E1B9F0BD91B6A50AFFD766267BD6C4DC /* JTCalendarWeekDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F78DF99607BD608535E40581C9F0DF /* JTCalendarWeekDayView.m */; };
+		E2586B00A09072FDC6AD43536C2B5AD5 /* IFTTTConstraintMultiplierAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A37333DE82C5E2E0B19E70E607DCAB7 /* IFTTTConstraintMultiplierAnimation.h */; };
+		E6981C4D284538B27E0B3DF46E9A47A2 /* JTCalendarScrollManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BD36871CB76C4047AEC0333F7D7626 /* JTCalendarScrollManager.m */; };
+		E6A18B75B974A1AD3171BABE4B58EB87 /* IFTTTLayerFillColorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B26630F795D9BC61B131225CCA74044A /* IFTTTLayerFillColorAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		E9AFA9EDF794C1CC3667A92621002DEB /* MagicalImportFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FCF61F7DA20E8BFF34409DA6F07DD6 /* MagicalImportFunctions.m */; };
+		E9D298D534D81E45F19B81358AE53F5E /* IFTTTScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E53348DA1629388DE61776FACAE0E428 /* IFTTTScaleAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		EC43454D6391280202BE0BFB6968D8F2 /* JTCalendarWeek.h in Headers */ = {isa = PBXBuildFile; fileRef = BAFB29B0797767CC754E5DA8C1028A0D /* JTCalendarWeek.h */; };
+		ECCE8164BA2A80626B90E3EE68C79EEA /* JTContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4110C921FCF06060C8ED3F6F805CDD6D /* JTContent.h */; };
+		ECFFF67B5EEA58D2544079CB2A378A09 /* JTHorizontalCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 61F2379D4B26CED8347FBC95EACEB69F /* JTHorizontalCalendarView.h */; };
+		EF3BE38C1562E6D6F4D8DD547BE18D74 /* JTCalendarDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A197F1A7889890FB58E1D6AB156B304 /* JTCalendarDelegateManager.m */; };
+		F5483F60B25F036C608897C39246337B /* IFTTTTextColorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E5125B113A7485DE38AB84726AED878E /* IFTTTTextColorAnimation.h */; };
+		F64D9FD49DACBE279A4A9701CE13D384 /* IFTTTScrollViewPageConstraintAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B31DD1DB214B13A67DA0D2F41F18D2D4 /* IFTTTScrollViewPageConstraintAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		F815DCD3F3BE33EB87B439CC2A164105 /* JTCalendarSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = AF957EF4AA0549085B117CF10E006752 /* JTCalendarSettings.m */; };
+		F90DED09504A16BF473B970C5CCD79C9 /* NSManagedObject+MagicalRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F4CE7479894FD92AA3DF66DD180557 /* NSManagedObject+MagicalRequests.m */; };
+		F96CA49AA68029DA19961B1F843BA85D /* MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD087D83F5F18F7DBA9C1CE37417F08 /* MagicalRecord.h */; };
+		FC9C52D481C707EA29A3A26C3C14D085 /* NSManagedObjectContext+MagicalObserving.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FEC1BBC5504F3ED60AB96D34D1E17 /* NSManagedObjectContext+MagicalObserving.m */; };
+		FCA1AD89BD77FBF3FCF54F838DD83C7D /* JTCalendarSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF3AF8A1FD956D23327C9975A1FB2CB /* JTCalendarSettings.h */; };
+		FDF6EB870741C4CD99438A3ADD5EC659 /* JTCalendarWeekDay.h in Headers */ = {isa = PBXBuildFile; fileRef = 54B39C48C3FC1139011E1B72747DE57B /* JTCalendarWeekDay.h */; };
+		FE34C5272294918C49C4CE62B52313C1 /* IFTTTAlphaAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 873078C864334C6D36F6F7932E19F418 /* IFTTTAlphaAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E886815B86FFE62AD37A116DC7E1314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A37C403D3322456FDE01672BBA72DAF;
+			remoteInfo = MagicalRecord;
+		};
+		12F44170E73288EC1BA5AAE35FDD1D1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFECF1B6D77B894DB9860F1202146FF7;
+			remoteInfo = JazzHands;
+		};
+		30B2BB522C4AA00BD4C7B5E17E9F6641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F2B9C503360BE9C750538EB55F82BF;
+			remoteInfo = JTCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000E70C928062D6E23EB583EECF78E6C /* NSManagedObjectContext+MagicalChainSave.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalChainSave.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalChainSave.m"; sourceTree = "<group>"; };
+		03DB19CEAAA2AEA6B5F22CC95A05AD13 /* IFTTTHideAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTHideAnimation.h; path = JazzHands/IFTTTHideAnimation.h; sourceTree = "<group>"; };
+		07930E920A79D80B4543244AD196E2B6 /* NSAttributeDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributeDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSAttributeDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		07DFE512BC4A72C4A84FE915566C024B /* IFTTTRotationAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTRotationAnimation.h; path = JazzHands/IFTTTRotationAnimation.h; sourceTree = "<group>"; };
+		081FE33FB8F4B99E5509873627FEE0F3 /* JTVerticalCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTVerticalCalendarView.m; path = JTCalendar/Views/JTVerticalCalendarView.m; sourceTree = "<group>"; };
+		08B7D3BB4D39CCC83B90D0A34A3A30D6 /* IFTTTScaleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTScaleAnimation.h; path = JazzHands/IFTTTScaleAnimation.h; sourceTree = "<group>"; };
+		092D4447844D449A41931CDA999AAC37 /* JTCalendarPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarPage.h; path = JTCalendar/Protocols/JTCalendarPage.h; sourceTree = "<group>"; };
+		0973FD438F440EF7C933B18195876009 /* NSManagedObjectContext+MagicalSaves.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalSaves.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalSaves.h"; sourceTree = "<group>"; };
+		0A6C12765CA448F070976F05A3FB1213 /* IFTTTPathPositionAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTPathPositionAnimation.m; path = JazzHands/IFTTTPathPositionAnimation.m; sourceTree = "<group>"; };
+		0BE8F260B984B19ED495FE3E8BC8CDBC /* Pods-HourlyCalculation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HourlyCalculation-dummy.m"; sourceTree = "<group>"; };
+		0DDE902EC13B3AC91F3256B508C9765E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		0DE2CD8E0EAFC55FA9C6B5724EDAA6B7 /* IFTTTTransform3DAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTTransform3DAnimation.h; path = JazzHands/IFTTTTransform3DAnimation.h; sourceTree = "<group>"; };
+		0E3F26DA37D9AD86058E7D6ECB8F5755 /* Pods-HourlyCalculation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HourlyCalculation.release.xcconfig"; sourceTree = "<group>"; };
+		12AD3C145602200AE347C4E760CAF865 /* JTCalendarDayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarDayView.m; path = JTCalendar/Views/JTCalendarDayView.m; sourceTree = "<group>"; };
+		12BD36871CB76C4047AEC0333F7D7626 /* JTCalendarScrollManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarScrollManager.m; path = JTCalendar/Managers/JTCalendarScrollManager.m; sourceTree = "<group>"; };
+		12DD2E625B26DD5D0D17172B2E89AE06 /* NSManagedObject+MagicalRequests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalRequests.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.h"; sourceTree = "<group>"; };
+		151CF4C9BAB6235F4F64C5A1BF731E6F /* NSPersistentStoreCoordinator+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStoreCoordinator+MagicalRecord.h"; path = "MagicalRecord/Categories/NSPersistentStoreCoordinator+MagicalRecord.h"; sourceTree = "<group>"; };
+		16D92CEA4D226BD7E32C12F8C1732882 /* IFTTTAnimatable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAnimatable.h; path = JazzHands/IFTTTAnimatable.h; sourceTree = "<group>"; };
+		17960D40FF99367150B40EEAACB89416 /* NSPersistentStoreCoordinator+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStoreCoordinator+MagicalRecord.m"; path = "MagicalRecord/Categories/NSPersistentStoreCoordinator+MagicalRecord.m"; sourceTree = "<group>"; };
+		191CB5F08E948A0F73C0D65646E235D1 /* IFTTTEasingFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTEasingFunction.h; path = JazzHands/IFTTTEasingFunction.h; sourceTree = "<group>"; };
+		1A2BD08523EDF2B0A4531C392976E3B8 /* IFTTTLayerStrokeEndAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTLayerStrokeEndAnimation.h; path = JazzHands/IFTTTLayerStrokeEndAnimation.h; sourceTree = "<group>"; };
+		1A9B60B6A0F93C3F1C1CBAF8BFEB8481 /* NSManagedObjectContext+MagicalThreading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalThreading.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.h"; sourceTree = "<group>"; };
+		1B1A3DE12F558D8F3477FCDAEE081778 /* NSRelationshipDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSRelationshipDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSRelationshipDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		1BDA934F6747BB402AAD3E13E38C6512 /* NSManagedObject+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRecord.m"; sourceTree = "<group>"; };
+		2212E7334208C5C2BB2A98FD363FE6CC /* JTHorizontalCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTHorizontalCalendarView.m; path = JTCalendar/Views/JTHorizontalCalendarView.m; sourceTree = "<group>"; };
+		22268C521F56D6CA41AC43D227A56558 /* IFTTTAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTAnimator.m; path = JazzHands/IFTTTAnimator.m; sourceTree = "<group>"; };
+		222C23CF05C1ECF1297B109A4A5551D4 /* JazzHands-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JazzHands-dummy.m"; sourceTree = "<group>"; };
+		232325E4A59DFDCBBCC6203A9EE5AEDA /* IFTTTAnimatedPagingScrollViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAnimatedPagingScrollViewController.h; path = JazzHands/IFTTTAnimatedPagingScrollViewController.h; sourceTree = "<group>"; };
+		251CC9F50C178E5011D83869A0A9E204 /* IFTTTBackgroundColorAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTBackgroundColorAnimation.m; path = JazzHands/IFTTTBackgroundColorAnimation.m; sourceTree = "<group>"; };
+		25AA91D4C484B8F3F8E24FD9F7A7D198 /* JTCalendarWeekDayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarWeekDayView.h; path = JTCalendar/Views/JTCalendarWeekDayView.h; sourceTree = "<group>"; };
+		2658935ADE1455D9D5420FFF1D0546C3 /* IFTTTFrameAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTFrameAnimation.h; path = JazzHands/IFTTTFrameAnimation.h; sourceTree = "<group>"; };
+		265FEC1BBC5504F3ED60AB96D34D1E17 /* NSManagedObjectContext+MagicalObserving.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalObserving.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalObserving.m"; sourceTree = "<group>"; };
+		29179FB6FD0553206844A6D911A3FE9D /* NSNumber+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSNumber+MagicalDataImport.h"; sourceTree = "<group>"; };
+		29E1133DE04E73607EA8411A7442CB4E /* NSManagedObjectModel+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectModel+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObjectModel+MagicalRecord.h"; sourceTree = "<group>"; };
+		29F78DF99607BD608535E40581C9F0DF /* JTCalendarWeekDayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarWeekDayView.m; path = JTCalendar/Views/JTCalendarWeekDayView.m; sourceTree = "<group>"; };
+		2A37333DE82C5E2E0B19E70E607DCAB7 /* IFTTTConstraintMultiplierAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTConstraintMultiplierAnimation.h; path = JazzHands/IFTTTConstraintMultiplierAnimation.h; sourceTree = "<group>"; };
+		2B6D4F043563E1F93E8C8E4F2477B50A /* JTCalendarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarManager.h; path = JTCalendar/JTCalendarManager.h; sourceTree = "<group>"; };
+		2D18CE3300C3C52B09D52C78C5E67615 /* NSManagedObject+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalDataImport.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalDataImport.m"; sourceTree = "<group>"; };
+		2D720BD606D1339EF1932684A1D0F763 /* IFTTTPathPositionAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTPathPositionAnimation.h; path = JazzHands/IFTTTPathPositionAnimation.h; sourceTree = "<group>"; };
+		2F32CF531319AA508443E05DB6CBC17E /* IFTTTAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTAnimation.m; path = JazzHands/IFTTTAnimation.m; sourceTree = "<group>"; };
+		2F9583F06783EECA188E1D56E1020E0B /* IFTTTViewAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTViewAnimation.m; path = JazzHands/IFTTTViewAnimation.m; sourceTree = "<group>"; };
+		3120A6992B5CFCC5B397C87128BCA4E1 /* IFTTTEasingFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTEasingFunction.m; path = JazzHands/IFTTTEasingFunction.m; sourceTree = "<group>"; };
+		35E8CD05B5F293E25E35AEAAF54E2FBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		36C67D3AAAF1A5CAB51383B7FCD0D9CD /* JTCalendarScrollManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarScrollManager.h; path = JTCalendar/Managers/JTCalendarScrollManager.h; sourceTree = "<group>"; };
+		37040B3122C6BFE536DF7975A5DDA571 /* libMagicalRecord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMagicalRecord.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		373A354288F0326B91418930F27D748C /* Pods-HourlyCalculation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HourlyCalculation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37CEB85DB94CFA633D7BF9FF9379AD88 /* NSRelationshipDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSRelationshipDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSRelationshipDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		3AA1B2195DF8B0ED8F3503D58BFEADE3 /* MagicalRecord+ShorthandMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+ShorthandMethods.m"; path = "MagicalRecord/Core/MagicalRecord+ShorthandMethods.m"; sourceTree = "<group>"; };
+		3BF4B820308BE9B85853BEC4315EC305 /* IFTTTAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAnimator.h; path = JazzHands/IFTTTAnimator.h; sourceTree = "<group>"; };
+		3C698763F1E3B582147766BE9346A5EF /* JTVerticalCalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTVerticalCalendarView.h; path = JTCalendar/Views/JTVerticalCalendarView.h; sourceTree = "<group>"; };
+		3E658DC53052CAFAA83E6F3C90509200 /* IFTTTLayerStrokeStartAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTLayerStrokeStartAnimation.h; path = JazzHands/IFTTTLayerStrokeStartAnimation.h; sourceTree = "<group>"; };
+		4110C921FCF06060C8ED3F6F805CDD6D /* JTContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTContent.h; path = JTCalendar/Protocols/JTContent.h; sourceTree = "<group>"; };
+		41B8881CC109A373090500D64D46EEEB /* NSManagedObject+MagicalAggregation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalAggregation.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalAggregation.h"; sourceTree = "<group>"; };
+		42D93B1C536852E7873947F843E6BE58 /* NSString+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSString+MagicalDataImport.m"; sourceTree = "<group>"; };
+		46B57BB613C13C1BC872EFFD47F28C18 /* IFTTTTranslationAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTTranslationAnimation.h; path = JazzHands/IFTTTTranslationAnimation.h; sourceTree = "<group>"; };
+		48361974092F729D70D2D12993DAA14B /* NSPersistentStore+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStore+MagicalRecord.m"; path = "MagicalRecord/Categories/NSPersistentStore+MagicalRecord.m"; sourceTree = "<group>"; };
+		4A22BF214A60638FAE14E4613429963D /* MagicalRecord+ErrorHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+ErrorHandling.m"; path = "MagicalRecord/Core/MagicalRecord+ErrorHandling.m"; sourceTree = "<group>"; };
+		4ADAC4F321A00DA4CF708C66F15A00D2 /* MagicalRecordInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordInternal.h; path = MagicalRecord/Core/MagicalRecordInternal.h; sourceTree = "<group>"; };
+		4DD8DF507C03467A7E63EE5579C78BAF /* MagicalRecord+Setup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Setup.h"; path = "MagicalRecord/Core/MagicalRecord+Setup.h"; sourceTree = "<group>"; };
+		4ED2C3A448C4DB1C192B7CEB63F1E620 /* IFTTTTranslationAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTTranslationAnimation.m; path = JazzHands/IFTTTTranslationAnimation.m; sourceTree = "<group>"; };
+		5027DC9CC074D3087E98F3705A04AD03 /* NSManagedObjectContext+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.m"; sourceTree = "<group>"; };
+		5202F87267CF9C87B8C19D0AA25B2697 /* JTCalendar-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JTCalendar-Private.xcconfig"; sourceTree = "<group>"; };
+		52F4CE7479894FD92AA3DF66DD180557 /* NSManagedObject+MagicalRequests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalRequests.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.m"; sourceTree = "<group>"; };
+		533AEEA2C55DA2935A638BBDAAE8FA09 /* MagicalRecordLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordLogging.h; path = MagicalRecord/Core/MagicalRecordLogging.h; sourceTree = "<group>"; };
+		54B39C48C3FC1139011E1B72747DE57B /* JTCalendarWeekDay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarWeekDay.h; path = JTCalendar/Protocols/JTCalendarWeekDay.h; sourceTree = "<group>"; };
+		54BF1C4C06FCA0A71368AC2B8DC350D5 /* JTCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendar.h; path = JTCalendar/JTCalendar.h; sourceTree = "<group>"; };
+		579BDF6B3549DB9BC7DADB268DBE2BDF /* MagicalRecord+Options.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Options.m"; path = "MagicalRecord/Core/MagicalRecord+Options.m"; sourceTree = "<group>"; };
+		57A148F9BB890B1C4A5D528B7BE24C59 /* IFTTTJazzHands.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTJazzHands.h; path = JazzHands/IFTTTJazzHands.h; sourceTree = "<group>"; };
+		599FAAFA3EAE761BDBC2FF563250B858 /* IFTTTLayerFillColorAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTLayerFillColorAnimation.h; path = JazzHands/IFTTTLayerFillColorAnimation.h; sourceTree = "<group>"; };
+		5A01A981A535A80E6E575D27DE39C558 /* IFTTTShapeLayerAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTShapeLayerAnimation.m; path = JazzHands/IFTTTShapeLayerAnimation.m; sourceTree = "<group>"; };
+		5A197F1A7889890FB58E1D6AB156B304 /* JTCalendarDelegateManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarDelegateManager.m; path = JTCalendar/Managers/JTCalendarDelegateManager.m; sourceTree = "<group>"; };
+		5DF09798FF8F3ECD74365EF4A19AE674 /* NSManagedObjectContext+MagicalChainSave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalChainSave.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalChainSave.h"; sourceTree = "<group>"; };
+		5E43D7CCFB117158F83EEDA25CEB03B6 /* IFTTTAnimatedScrollViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTAnimatedScrollViewController.m; path = JazzHands/IFTTTAnimatedScrollViewController.m; sourceTree = "<group>"; };
+		608276616E25CCB5447D9216567E80E9 /* IFTTTInterpolatable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTInterpolatable.h; path = JazzHands/IFTTTInterpolatable.h; sourceTree = "<group>"; };
+		61F2379D4B26CED8347FBC95EACEB69F /* JTHorizontalCalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTHorizontalCalendarView.h; path = JTCalendar/Views/JTHorizontalCalendarView.h; sourceTree = "<group>"; };
+		65B9CB62EDFEA731902BBF8B776DE3F0 /* MagicalRecord-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagicalRecord-prefix.pch"; sourceTree = "<group>"; };
+		661DD3F1A51768CF7EAAA9384E571C6F /* JTCalendarMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarMenuView.m; path = JTCalendar/Views/JTCalendarMenuView.m; sourceTree = "<group>"; };
+		66940517EBF7EC126EEA16BF303B7C31 /* NSManagedObject+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRecord.h"; sourceTree = "<group>"; };
+		66949B34AD15B0C54A6FDF9C4B311D78 /* NSManagedObject+MagicalFinders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalFinders.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalFinders.h"; sourceTree = "<group>"; };
+		67F41BC7D1D440737B8C78C717FBFB2A /* NSPersistentStore+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStore+MagicalRecord.h"; path = "MagicalRecord/Categories/NSPersistentStore+MagicalRecord.h"; sourceTree = "<group>"; };
+		6815740996983553A6272816900ED7A4 /* IFTTTAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAnimation.h; path = JazzHands/IFTTTAnimation.h; sourceTree = "<group>"; };
+		6A5CE83CBBE31E6AE17769C3C7841586 /* IFTTTMaskAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTMaskAnimation.h; path = JazzHands/IFTTTMaskAnimation.h; sourceTree = "<group>"; };
+		6CB869F70D84DBBDAB060D05F2643076 /* JTCalendarDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarDelegate.h; path = JTCalendar/JTCalendarDelegate.h; sourceTree = "<group>"; };
+		6D8F69BFEFBAB845B6A3EB2CBC14EA27 /* NSManagedObjectContext+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.h"; sourceTree = "<group>"; };
+		6E02CB9F1BD0AD9A552409C502EE99B9 /* MagicalRecordShorthandMethodAliases.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordShorthandMethodAliases.h; path = MagicalRecord/Core/MagicalRecordShorthandMethodAliases.h; sourceTree = "<group>"; };
+		73E14E1F0A846E8068B94C00AFC79F51 /* MagicalRecordInternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagicalRecordInternal.m; path = MagicalRecord/Core/MagicalRecordInternal.m; sourceTree = "<group>"; };
+		75CAA4A7C4190706B83C4DD2FE49C1C9 /* JTDateHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTDateHelper.m; path = JTCalendar/JTDateHelper.m; sourceTree = "<group>"; };
+		7650C42046D3C6FD96E1BC3740466D59 /* IFTTTRotationAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTRotationAnimation.m; path = JazzHands/IFTTTRotationAnimation.m; sourceTree = "<group>"; };
+		7680A7A1DFE67AC5927FEB634889D760 /* IFTTTAnimatedScrollViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAnimatedScrollViewController.h; path = JazzHands/IFTTTAnimatedScrollViewController.h; sourceTree = "<group>"; };
+		79722F9CF131B29AB284D870357A5692 /* IFTTTBackgroundColorAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTBackgroundColorAnimation.h; path = JazzHands/IFTTTBackgroundColorAnimation.h; sourceTree = "<group>"; };
+		79F752F0DEF087B9363F37BF41AFFA87 /* JTCalendarDayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarDayView.h; path = JTCalendar/Views/JTCalendarDayView.h; sourceTree = "<group>"; };
+		7AE5E811B5AA24160EA21130C07EAA42 /* IFTTTFilmstrip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTFilmstrip.h; path = JazzHands/IFTTTFilmstrip.h; sourceTree = "<group>"; };
+		7DC010FD74A62F8E21D98E196D9D4359 /* NSNumber+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSNumber+MagicalDataImport.m"; sourceTree = "<group>"; };
+		7FB035C38B7797DF8A428A0CBBE213D6 /* NSEntityDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSEntityDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSEntityDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		82039BF4EF64DB763D083C63F84AAF18 /* IFTTTMaskAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTMaskAnimation.m; path = JazzHands/IFTTTMaskAnimation.m; sourceTree = "<group>"; };
+		8441A269A626D2B4E72DFEBA853C70B8 /* IFTTTLayerStrokeEndAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTLayerStrokeEndAnimation.m; path = JazzHands/IFTTTLayerStrokeEndAnimation.m; sourceTree = "<group>"; };
+		845A5750335D23A0A7006169F7AAEF92 /* MagicalRecord+iCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+iCloud.m"; path = "MagicalRecord/Core/MagicalRecord+iCloud.m"; sourceTree = "<group>"; };
+		85E40C4FB41E3F4BC26DE4FBEEED9C73 /* libJTCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJTCalendar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AB3EF77761D4C1223E01E6C80BF1F1 /* NSManagedObjectContext+MagicalSaves.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalSaves.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalSaves.m"; sourceTree = "<group>"; };
+		873078C864334C6D36F6F7932E19F418 /* IFTTTAlphaAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTAlphaAnimation.m; path = JazzHands/IFTTTAlphaAnimation.m; sourceTree = "<group>"; };
+		878A226E4DFE7BFC415BB973BF8582DA /* JTCalendarPageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarPageView.h; path = JTCalendar/Views/JTCalendarPageView.h; sourceTree = "<group>"; };
+		8947444226B7DAE56605A4DE52B54013 /* JTCalendarWeekView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarWeekView.h; path = JTCalendar/Views/JTCalendarWeekView.h; sourceTree = "<group>"; };
+		8B3F8086CB79BCA3D15A3E83D94D6881 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8B8D478B615AD594D9DE7854929CB62F /* IFTTTFilmstrip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTFilmstrip.m; path = JazzHands/IFTTTFilmstrip.m; sourceTree = "<group>"; };
+		8C1F8379024A6AFCBE800A750374F0EE /* MagicalImportFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalImportFunctions.h; path = MagicalRecord/Categories/DataImport/MagicalImportFunctions.h; sourceTree = "<group>"; };
+		8DE299F37752C80C347D315EF4621F1E /* MagicalRecord+Options.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Options.h"; path = "MagicalRecord/Core/MagicalRecord+Options.h"; sourceTree = "<group>"; };
+		905BB4C2C3A324E7A93DB09EEBA97707 /* MagicalRecord+Actions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Actions.h"; path = "MagicalRecord/Core/MagicalRecord+Actions.h"; sourceTree = "<group>"; };
+		9403D3EAAEDE6BE1AB6764130BEE7A5F /* JTCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTCalendar.xcconfig; sourceTree = "<group>"; };
+		95595F0783BE803DD8165197CB5F31CF /* JTCalendarPageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarPageView.m; path = JTCalendar/Views/JTCalendarPageView.m; sourceTree = "<group>"; };
+		97BB18E4243D31449BBE5499A578CD6D /* IFTTTTextColorAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTTextColorAnimation.m; path = JazzHands/IFTTTTextColorAnimation.m; sourceTree = "<group>"; };
+		97E6411E955A6CCC7298B6462F3F916D /* JazzHands-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JazzHands-Private.xcconfig"; sourceTree = "<group>"; };
+		99095034AA24D290D00777FD62AAC13D /* NSObject+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSObject+MagicalDataImport.m"; sourceTree = "<group>"; };
+		9A366CC80077D328089DED010A5C12ED /* JTMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTMenu.h; path = JTCalendar/Protocols/JTMenu.h; sourceTree = "<group>"; };
+		9DB120CF267FCBD0310E7FEB6303B700 /* JTCalendarDay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarDay.h; path = JTCalendar/Protocols/JTCalendarDay.h; sourceTree = "<group>"; };
+		9EA1755FB01D216BD692BB5F2471B17E /* NSManagedObjectContext+MagicalObserving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalObserving.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalObserving.h"; sourceTree = "<group>"; };
+		9F79F7382210809B6C02FC95D64088E8 /* libPods-HourlyCalculation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HourlyCalculation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2AC4C11F531A4883DD6E8D3BD7E7143 /* IFTTTConstraintConstantAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTConstraintConstantAnimation.h; path = JazzHands/IFTTTConstraintConstantAnimation.h; sourceTree = "<group>"; };
+		A87A70FB3716C7A0A7DCCE00B3F24832 /* IFTTTAnimatedPagingScrollViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTAnimatedPagingScrollViewController.m; path = JazzHands/IFTTTAnimatedPagingScrollViewController.m; sourceTree = "<group>"; };
+		A95558ABFE08F00D17E9EE901D0BA81B /* NSManagedObjectModel+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectModel+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObjectModel+MagicalRecord.m"; sourceTree = "<group>"; };
+		AA3F65A2091783A1737813045E9E102E /* IFTTTAlphaAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAlphaAnimation.h; path = JazzHands/IFTTTAlphaAnimation.h; sourceTree = "<group>"; };
+		ABD087D83F5F18F7DBA9C1CE37417F08 /* MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecord.h; path = MagicalRecord/MagicalRecord.h; sourceTree = "<group>"; };
+		ACA885501675E44D458CE58EF69DBEA2 /* IFTTTHideAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTHideAnimation.m; path = JazzHands/IFTTTHideAnimation.m; sourceTree = "<group>"; };
+		ADBFFEF5162B94115BA42EF3879606FE /* IFTTTCornerRadiusAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTCornerRadiusAnimation.m; path = JazzHands/IFTTTCornerRadiusAnimation.m; sourceTree = "<group>"; };
+		AF957EF4AA0549085B117CF10E006752 /* JTCalendarSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarSettings.m; path = JTCalendar/JTCalendarSettings.m; sourceTree = "<group>"; };
+		B0B11EA236316DB1506C0D874C1CFA4F /* JazzHands-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JazzHands-prefix.pch"; sourceTree = "<group>"; };
+		B26630F795D9BC61B131225CCA74044A /* IFTTTLayerFillColorAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTLayerFillColorAnimation.m; path = JazzHands/IFTTTLayerFillColorAnimation.m; sourceTree = "<group>"; };
+		B31DD1DB214B13A67DA0D2F41F18D2D4 /* IFTTTScrollViewPageConstraintAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTScrollViewPageConstraintAnimation.m; path = JazzHands/IFTTTScrollViewPageConstraintAnimation.m; sourceTree = "<group>"; };
+		B425D7F92B816EAF26299F9A2B035AD2 /* IFTTTTransform3DAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTTransform3DAnimation.m; path = JazzHands/IFTTTTransform3DAnimation.m; sourceTree = "<group>"; };
+		B5FCF61F7DA20E8BFF34409DA6F07DD6 /* MagicalImportFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagicalImportFunctions.m; path = MagicalRecord/Categories/DataImport/MagicalImportFunctions.m; sourceTree = "<group>"; };
+		B80B822D4046388FC53A5A89E028EBFF /* IFTTTLayerStrokeStartAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTLayerStrokeStartAnimation.m; path = JazzHands/IFTTTLayerStrokeStartAnimation.m; sourceTree = "<group>"; };
+		B9BB38F2234C552C8F89CD778DDC29C7 /* JTCalendarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarManager.m; path = JTCalendar/JTCalendarManager.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAFB29B0797767CC754E5DA8C1028A0D /* JTCalendarWeek.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarWeek.h; path = JTCalendar/Protocols/JTCalendarWeek.h; sourceTree = "<group>"; };
+		BBB198B2AF85EB3A1855668FEBE3956F /* IFTTTViewAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTViewAnimation.h; path = JazzHands/IFTTTViewAnimation.h; sourceTree = "<group>"; };
+		BBB9718EB26A20BF972D0937D179004E /* MagicalRecordDeprecationMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordDeprecationMacros.h; path = MagicalRecord/Core/MagicalRecordDeprecationMacros.h; sourceTree = "<group>"; };
+		BD1D5C5C4DC358B131AB1F1AE6181967 /* JTDateHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTDateHelper.h; path = JTCalendar/JTDateHelper.h; sourceTree = "<group>"; };
+		BDC2CCEBC2514C00C3897BCAFC815DEC /* JTCalendarWeekView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarWeekView.m; path = JTCalendar/Views/JTCalendarWeekView.m; sourceTree = "<group>"; };
+		BF485EB06448E0C2EBF733BF2867C16C /* IFTTTConstraintConstantAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTConstraintConstantAnimation.m; path = JazzHands/IFTTTConstraintConstantAnimation.m; sourceTree = "<group>"; };
+		BFD0800C73B5758E123E62ACB3E5FEDF /* NSManagedObject+MagicalFinders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalFinders.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalFinders.m"; sourceTree = "<group>"; };
+		C00D261AF1856706D2E964AE62D3E0A0 /* IFTTTInterpolatable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTInterpolatable.m; path = JazzHands/IFTTTInterpolatable.m; sourceTree = "<group>"; };
+		C03C43A57C65120192CD6A85B5B6EB6C /* IFTTTShapeLayerAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTShapeLayerAnimation.h; path = JazzHands/IFTTTShapeLayerAnimation.h; sourceTree = "<group>"; };
+		C170695B7ED0E15B367E12C149808323 /* libJazzHands.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJazzHands.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30246645556366C28EA044A06F6C38B /* IFTTTCornerRadiusAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTCornerRadiusAnimation.h; path = JazzHands/IFTTTCornerRadiusAnimation.h; sourceTree = "<group>"; };
+		C3FD56875C341D191BD954C3E4CD4275 /* JTCalendarDelegateManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarDelegateManager.h; path = JTCalendar/Managers/JTCalendarDelegateManager.h; sourceTree = "<group>"; };
+		C5C1807FA47056C8FE4B2074B45B68E8 /* MagicalRecord+iCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+iCloud.h"; path = "MagicalRecord/Core/MagicalRecord+iCloud.h"; sourceTree = "<group>"; };
+		C7B8411E889FCDF577C68C03340478F4 /* IFTTTScrollViewPageConstraintAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTScrollViewPageConstraintAnimation.h; path = JazzHands/IFTTTScrollViewPageConstraintAnimation.h; sourceTree = "<group>"; };
+		CBFC48234A6474BC4E29F0F767544B59 /* Pods-HourlyCalculation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HourlyCalculation-resources.sh"; sourceTree = "<group>"; };
+		CD84916AD3889BE36BF640A0F9480A70 /* NSString+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSString+MagicalDataImport.h"; sourceTree = "<group>"; };
+		CEE7507B28ED0E4D38D369E60BBF7A1A /* NSAttributeDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributeDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSAttributeDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		D39B4CEF69F97E7B78E64C6834C9F901 /* Pods-HourlyCalculation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HourlyCalculation-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6C503BDDC30B5E489299C6B83B83878 /* JTCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTCalendar-prefix.pch"; sourceTree = "<group>"; };
+		D9311653E1B7863AF8293C508A7F6B5F /* MagicalRecord.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MagicalRecord.xcconfig; sourceTree = "<group>"; };
+		D9529DEED33495248491F2D516A1535A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		D97C2FD10D412F2D34600D6A330B3F76 /* Pods-HourlyCalculation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HourlyCalculation.debug.xcconfig"; sourceTree = "<group>"; };
+		DA6399F26B8F1AEC6822354A09A9B922 /* JTCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTCalendar-dummy.m"; sourceTree = "<group>"; };
+		DAF3AF8A1FD956D23327C9975A1FB2CB /* JTCalendarSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarSettings.h; path = JTCalendar/JTCalendarSettings.h; sourceTree = "<group>"; };
+		E09BDF3B758D26B057973189E02C3000 /* NSObject+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSObject+MagicalDataImport.h"; sourceTree = "<group>"; };
+		E2001FD12A024E552D348132E163B2DD /* JazzHands.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JazzHands.xcconfig; sourceTree = "<group>"; };
+		E2C123D2C9D95515DD8D3E192080C79E /* UIView+IFTTTJazzHands.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+IFTTTJazzHands.m"; path = "JazzHands/UIView+IFTTTJazzHands.m"; sourceTree = "<group>"; };
+		E36A33A264C1A06D49735DB1C10E11B5 /* NSEntityDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSEntityDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSEntityDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		E4862CDD6EF0CC3083E6752BCF180E51 /* IFTTTFrameAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTFrameAnimation.m; path = JazzHands/IFTTTFrameAnimation.m; sourceTree = "<group>"; };
+		E5125B113A7485DE38AB84726AED878E /* IFTTTTextColorAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTTextColorAnimation.h; path = JazzHands/IFTTTTextColorAnimation.h; sourceTree = "<group>"; };
+		E53348DA1629388DE61776FACAE0E428 /* IFTTTScaleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTScaleAnimation.m; path = JazzHands/IFTTTScaleAnimation.m; sourceTree = "<group>"; };
+		E64A9B80952D0A2D43319A572372855B /* MagicalRecord+Actions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Actions.m"; path = "MagicalRecord/Core/MagicalRecord+Actions.m"; sourceTree = "<group>"; };
+		EB716038D025ED8916E32465370407D2 /* MagicalRecord+ErrorHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+ErrorHandling.h"; path = "MagicalRecord/Core/MagicalRecord+ErrorHandling.h"; sourceTree = "<group>"; };
+		EB7732D5E61D8794F8AE02B4613CD34D /* MagicalRecord+Setup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Setup.m"; path = "MagicalRecord/Core/MagicalRecord+Setup.m"; sourceTree = "<group>"; };
+		EB816B16E1CCF8652E5333562467FED3 /* IFTTTConstraintMultiplierAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTConstraintMultiplierAnimation.m; path = JazzHands/IFTTTConstraintMultiplierAnimation.m; sourceTree = "<group>"; };
+		F070989777859FE1E51F972569D5351C /* NSManagedObjectContext+MagicalThreading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalThreading.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.m"; sourceTree = "<group>"; };
+		F0B65193801913BC422754D8D529564F /* MagicalRecord+ShorthandMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+ShorthandMethods.h"; path = "MagicalRecord/Core/MagicalRecord+ShorthandMethods.h"; sourceTree = "<group>"; };
+		F22A66757D75DB40924350B0B428CF94 /* NSManagedObject+MagicalAggregation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalAggregation.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalAggregation.m"; sourceTree = "<group>"; };
+		F25616F7A484DB1C538B02A233356295 /* MagicalRecord-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MagicalRecord-Private.xcconfig"; sourceTree = "<group>"; };
+		F27FD39063BF8790D58EE1A0DC0CF4D2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F5BC7BE74BC4CBC50F741527A8A2C142 /* UIView+IFTTTJazzHands.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+IFTTTJazzHands.h"; path = "JazzHands/UIView+IFTTTJazzHands.h"; sourceTree = "<group>"; };
+		F5E6C0EC78BEDA33E1DAC1A7DA97A82D /* NSManagedObject+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalDataImport.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalDataImport.h"; sourceTree = "<group>"; };
+		FC92A0403A0896780E80935EEF9BC0DD /* JTCalendarMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarMenuView.h; path = JTCalendar/Views/JTCalendarMenuView.h; sourceTree = "<group>"; };
+		FF561B15BAA66DCB24ACD0408271DAB0 /* MagicalRecord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MagicalRecord-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27A5029C9ADBF169C6EE13AC47B7A07A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94800E8AC94067A1EF8F727C74A0C6D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421697BB440C0EDD8C3E414498CE6ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0131772C4D3E830CE030390052C86992 /* CoreData.framework in Frameworks */,
+				7DBC75EA49F17695CF131CEABB3D65C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CFDD865973D5A1021594D9B827030B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0843FA13C0571900FFA7D525A6B48EBE /* CoreGraphics.framework in Frameworks */,
+				3A4EDEBA4ED80F7112A18164BDA5427D /* Foundation.framework in Frameworks */,
+				C9FF2171D54608589AB9654B91DF67FF /* QuartzCore.framework in Frameworks */,
+				7FE0BE2EA5C037A3EEE8FAB4B21541D0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785D6AED197E67232B3C9DAADF1E0664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF15FC5F58F231DA1FE0A59C00C2FB77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3738E22F5CAEA4533E4C8E302943E190 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3738E22F5CAEA4533E4C8E302943E190 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0DDE902EC13B3AC91F3256B508C9765E /* CoreData.framework */,
+				D9529DEED33495248491F2D516A1535A /* CoreGraphics.framework */,
+				8B3F8086CB79BCA3D15A3E83D94D6881 /* Foundation.framework */,
+				F27FD39063BF8790D58EE1A0DC0CF4D2 /* QuartzCore.framework */,
+				35E8CD05B5F293E25E35AEAAF54E2FBF /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		378808C3A617F0DC10C88CA973CC96BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9311653E1B7863AF8293C508A7F6B5F /* MagicalRecord.xcconfig */,
+				F25616F7A484DB1C538B02A233356295 /* MagicalRecord-Private.xcconfig */,
+				FF561B15BAA66DCB24ACD0408271DAB0 /* MagicalRecord-dummy.m */,
+				65B9CB62EDFEA731902BBF8B776DE3F0 /* MagicalRecord-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MagicalRecord";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				DC809482031BCA01FBF534E163255FA5 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				7F61A12F577D8E807350B679C79F93B8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F61A12F577D8E807350B679C79F93B8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C12D976217ECB77FC083FE424AB607B1 /* Pods-HourlyCalculation */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AACD40FD99A0BEC20C6F065701353D52 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9403D3EAAEDE6BE1AB6764130BEE7A5F /* JTCalendar.xcconfig */,
+				5202F87267CF9C87B8C19D0AA25B2697 /* JTCalendar-Private.xcconfig */,
+				DA6399F26B8F1AEC6822354A09A9B922 /* JTCalendar-dummy.m */,
+				D6C503BDDC30B5E489299C6B83B83878 /* JTCalendar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JTCalendar";
+			sourceTree = "<group>";
+		};
+		AE4ED98C179EE2DDCC2A246C40ADE39A /* JTCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				54BF1C4C06FCA0A71368AC2B8DC350D5 /* JTCalendar.h */,
+				9DB120CF267FCBD0310E7FEB6303B700 /* JTCalendarDay.h */,
+				79F752F0DEF087B9363F37BF41AFFA87 /* JTCalendarDayView.h */,
+				12AD3C145602200AE347C4E760CAF865 /* JTCalendarDayView.m */,
+				6CB869F70D84DBBDAB060D05F2643076 /* JTCalendarDelegate.h */,
+				C3FD56875C341D191BD954C3E4CD4275 /* JTCalendarDelegateManager.h */,
+				5A197F1A7889890FB58E1D6AB156B304 /* JTCalendarDelegateManager.m */,
+				2B6D4F043563E1F93E8C8E4F2477B50A /* JTCalendarManager.h */,
+				B9BB38F2234C552C8F89CD778DDC29C7 /* JTCalendarManager.m */,
+				FC92A0403A0896780E80935EEF9BC0DD /* JTCalendarMenuView.h */,
+				661DD3F1A51768CF7EAAA9384E571C6F /* JTCalendarMenuView.m */,
+				092D4447844D449A41931CDA999AAC37 /* JTCalendarPage.h */,
+				878A226E4DFE7BFC415BB973BF8582DA /* JTCalendarPageView.h */,
+				95595F0783BE803DD8165197CB5F31CF /* JTCalendarPageView.m */,
+				36C67D3AAAF1A5CAB51383B7FCD0D9CD /* JTCalendarScrollManager.h */,
+				12BD36871CB76C4047AEC0333F7D7626 /* JTCalendarScrollManager.m */,
+				DAF3AF8A1FD956D23327C9975A1FB2CB /* JTCalendarSettings.h */,
+				AF957EF4AA0549085B117CF10E006752 /* JTCalendarSettings.m */,
+				BAFB29B0797767CC754E5DA8C1028A0D /* JTCalendarWeek.h */,
+				54B39C48C3FC1139011E1B72747DE57B /* JTCalendarWeekDay.h */,
+				25AA91D4C484B8F3F8E24FD9F7A7D198 /* JTCalendarWeekDayView.h */,
+				29F78DF99607BD608535E40581C9F0DF /* JTCalendarWeekDayView.m */,
+				8947444226B7DAE56605A4DE52B54013 /* JTCalendarWeekView.h */,
+				BDC2CCEBC2514C00C3897BCAFC815DEC /* JTCalendarWeekView.m */,
+				4110C921FCF06060C8ED3F6F805CDD6D /* JTContent.h */,
+				BD1D5C5C4DC358B131AB1F1AE6181967 /* JTDateHelper.h */,
+				75CAA4A7C4190706B83C4DD2FE49C1C9 /* JTDateHelper.m */,
+				61F2379D4B26CED8347FBC95EACEB69F /* JTHorizontalCalendarView.h */,
+				2212E7334208C5C2BB2A98FD363FE6CC /* JTHorizontalCalendarView.m */,
+				9A366CC80077D328089DED010A5C12ED /* JTMenu.h */,
+				3C698763F1E3B582147766BE9346A5EF /* JTVerticalCalendarView.h */,
+				081FE33FB8F4B99E5509873627FEE0F3 /* JTVerticalCalendarView.m */,
+				AACD40FD99A0BEC20C6F065701353D52 /* Support Files */,
+			);
+			path = JTCalendar;
+			sourceTree = "<group>";
+		};
+		C12D976217ECB77FC083FE424AB607B1 /* Pods-HourlyCalculation */ = {
+			isa = PBXGroup;
+			children = (
+				373A354288F0326B91418930F27D748C /* Pods-HourlyCalculation-acknowledgements.markdown */,
+				D39B4CEF69F97E7B78E64C6834C9F901 /* Pods-HourlyCalculation-acknowledgements.plist */,
+				0BE8F260B984B19ED495FE3E8BC8CDBC /* Pods-HourlyCalculation-dummy.m */,
+				CBFC48234A6474BC4E29F0F767544B59 /* Pods-HourlyCalculation-resources.sh */,
+				D97C2FD10D412F2D34600D6A330B3F76 /* Pods-HourlyCalculation.debug.xcconfig */,
+				0E3F26DA37D9AD86058E7D6ECB8F5755 /* Pods-HourlyCalculation.release.xcconfig */,
+			);
+			name = "Pods-HourlyCalculation";
+			path = "Target Support Files/Pods-HourlyCalculation";
+			sourceTree = "<group>";
+		};
+		C59837EC408218B073499944E88689E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2001FD12A024E552D348132E163B2DD /* JazzHands.xcconfig */,
+				97E6411E955A6CCC7298B6462F3F916D /* JazzHands-Private.xcconfig */,
+				222C23CF05C1ECF1297B109A4A5551D4 /* JazzHands-dummy.m */,
+				B0B11EA236316DB1506C0D874C1CFA4F /* JazzHands-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JazzHands";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85E40C4FB41E3F4BC26DE4FBEEED9C73 /* libJTCalendar.a */,
+				C170695B7ED0E15B367E12C149808323 /* libJazzHands.a */,
+				37040B3122C6BFE536DF7975A5DDA571 /* libMagicalRecord.a */,
+				9F79F7382210809B6C02FC95D64088E8 /* libPods-HourlyCalculation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC809482031BCA01FBF534E163255FA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE4ED98C179EE2DDCC2A246C40ADE39A /* JTCalendar */,
+				F1CCEF0CF2E101370D2AEDF6523C98DF /* JazzHands */,
+				ED1A0C3C322F3A1CC94289BB03494743 /* MagicalRecord */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED1A0C3C322F3A1CC94289BB03494743 /* MagicalRecord */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F8379024A6AFCBE800A750374F0EE /* MagicalImportFunctions.h */,
+				B5FCF61F7DA20E8BFF34409DA6F07DD6 /* MagicalImportFunctions.m */,
+				ABD087D83F5F18F7DBA9C1CE37417F08 /* MagicalRecord.h */,
+				905BB4C2C3A324E7A93DB09EEBA97707 /* MagicalRecord+Actions.h */,
+				E64A9B80952D0A2D43319A572372855B /* MagicalRecord+Actions.m */,
+				EB716038D025ED8916E32465370407D2 /* MagicalRecord+ErrorHandling.h */,
+				4A22BF214A60638FAE14E4613429963D /* MagicalRecord+ErrorHandling.m */,
+				8DE299F37752C80C347D315EF4621F1E /* MagicalRecord+Options.h */,
+				579BDF6B3549DB9BC7DADB268DBE2BDF /* MagicalRecord+Options.m */,
+				4DD8DF507C03467A7E63EE5579C78BAF /* MagicalRecord+Setup.h */,
+				EB7732D5E61D8794F8AE02B4613CD34D /* MagicalRecord+Setup.m */,
+				F0B65193801913BC422754D8D529564F /* MagicalRecord+ShorthandMethods.h */,
+				3AA1B2195DF8B0ED8F3503D58BFEADE3 /* MagicalRecord+ShorthandMethods.m */,
+				C5C1807FA47056C8FE4B2074B45B68E8 /* MagicalRecord+iCloud.h */,
+				845A5750335D23A0A7006169F7AAEF92 /* MagicalRecord+iCloud.m */,
+				BBB9718EB26A20BF972D0937D179004E /* MagicalRecordDeprecationMacros.h */,
+				4ADAC4F321A00DA4CF708C66F15A00D2 /* MagicalRecordInternal.h */,
+				73E14E1F0A846E8068B94C00AFC79F51 /* MagicalRecordInternal.m */,
+				533AEEA2C55DA2935A638BBDAAE8FA09 /* MagicalRecordLogging.h */,
+				6E02CB9F1BD0AD9A552409C502EE99B9 /* MagicalRecordShorthandMethodAliases.h */,
+				07930E920A79D80B4543244AD196E2B6 /* NSAttributeDescription+MagicalDataImport.h */,
+				CEE7507B28ED0E4D38D369E60BBF7A1A /* NSAttributeDescription+MagicalDataImport.m */,
+				E36A33A264C1A06D49735DB1C10E11B5 /* NSEntityDescription+MagicalDataImport.h */,
+				7FB035C38B7797DF8A428A0CBBE213D6 /* NSEntityDescription+MagicalDataImport.m */,
+				41B8881CC109A373090500D64D46EEEB /* NSManagedObject+MagicalAggregation.h */,
+				F22A66757D75DB40924350B0B428CF94 /* NSManagedObject+MagicalAggregation.m */,
+				F5E6C0EC78BEDA33E1DAC1A7DA97A82D /* NSManagedObject+MagicalDataImport.h */,
+				2D18CE3300C3C52B09D52C78C5E67615 /* NSManagedObject+MagicalDataImport.m */,
+				66949B34AD15B0C54A6FDF9C4B311D78 /* NSManagedObject+MagicalFinders.h */,
+				BFD0800C73B5758E123E62ACB3E5FEDF /* NSManagedObject+MagicalFinders.m */,
+				66940517EBF7EC126EEA16BF303B7C31 /* NSManagedObject+MagicalRecord.h */,
+				1BDA934F6747BB402AAD3E13E38C6512 /* NSManagedObject+MagicalRecord.m */,
+				12DD2E625B26DD5D0D17172B2E89AE06 /* NSManagedObject+MagicalRequests.h */,
+				52F4CE7479894FD92AA3DF66DD180557 /* NSManagedObject+MagicalRequests.m */,
+				5DF09798FF8F3ECD74365EF4A19AE674 /* NSManagedObjectContext+MagicalChainSave.h */,
+				000E70C928062D6E23EB583EECF78E6C /* NSManagedObjectContext+MagicalChainSave.m */,
+				9EA1755FB01D216BD692BB5F2471B17E /* NSManagedObjectContext+MagicalObserving.h */,
+				265FEC1BBC5504F3ED60AB96D34D1E17 /* NSManagedObjectContext+MagicalObserving.m */,
+				6D8F69BFEFBAB845B6A3EB2CBC14EA27 /* NSManagedObjectContext+MagicalRecord.h */,
+				5027DC9CC074D3087E98F3705A04AD03 /* NSManagedObjectContext+MagicalRecord.m */,
+				0973FD438F440EF7C933B18195876009 /* NSManagedObjectContext+MagicalSaves.h */,
+				86AB3EF77761D4C1223E01E6C80BF1F1 /* NSManagedObjectContext+MagicalSaves.m */,
+				1A9B60B6A0F93C3F1C1CBAF8BFEB8481 /* NSManagedObjectContext+MagicalThreading.h */,
+				F070989777859FE1E51F972569D5351C /* NSManagedObjectContext+MagicalThreading.m */,
+				29E1133DE04E73607EA8411A7442CB4E /* NSManagedObjectModel+MagicalRecord.h */,
+				A95558ABFE08F00D17E9EE901D0BA81B /* NSManagedObjectModel+MagicalRecord.m */,
+				29179FB6FD0553206844A6D911A3FE9D /* NSNumber+MagicalDataImport.h */,
+				7DC010FD74A62F8E21D98E196D9D4359 /* NSNumber+MagicalDataImport.m */,
+				E09BDF3B758D26B057973189E02C3000 /* NSObject+MagicalDataImport.h */,
+				99095034AA24D290D00777FD62AAC13D /* NSObject+MagicalDataImport.m */,
+				67F41BC7D1D440737B8C78C717FBFB2A /* NSPersistentStore+MagicalRecord.h */,
+				48361974092F729D70D2D12993DAA14B /* NSPersistentStore+MagicalRecord.m */,
+				151CF4C9BAB6235F4F64C5A1BF731E6F /* NSPersistentStoreCoordinator+MagicalRecord.h */,
+				17960D40FF99367150B40EEAACB89416 /* NSPersistentStoreCoordinator+MagicalRecord.m */,
+				1B1A3DE12F558D8F3477FCDAEE081778 /* NSRelationshipDescription+MagicalDataImport.h */,
+				37CEB85DB94CFA633D7BF9FF9379AD88 /* NSRelationshipDescription+MagicalDataImport.m */,
+				CD84916AD3889BE36BF640A0F9480A70 /* NSString+MagicalDataImport.h */,
+				42D93B1C536852E7873947F843E6BE58 /* NSString+MagicalDataImport.m */,
+				378808C3A617F0DC10C88CA973CC96BB /* Support Files */,
+			);
+			path = MagicalRecord;
+			sourceTree = "<group>";
+		};
+		F1CCEF0CF2E101370D2AEDF6523C98DF /* JazzHands */ = {
+			isa = PBXGroup;
+			children = (
+				AA3F65A2091783A1737813045E9E102E /* IFTTTAlphaAnimation.h */,
+				873078C864334C6D36F6F7932E19F418 /* IFTTTAlphaAnimation.m */,
+				16D92CEA4D226BD7E32C12F8C1732882 /* IFTTTAnimatable.h */,
+				232325E4A59DFDCBBCC6203A9EE5AEDA /* IFTTTAnimatedPagingScrollViewController.h */,
+				A87A70FB3716C7A0A7DCCE00B3F24832 /* IFTTTAnimatedPagingScrollViewController.m */,
+				7680A7A1DFE67AC5927FEB634889D760 /* IFTTTAnimatedScrollViewController.h */,
+				5E43D7CCFB117158F83EEDA25CEB03B6 /* IFTTTAnimatedScrollViewController.m */,
+				6815740996983553A6272816900ED7A4 /* IFTTTAnimation.h */,
+				2F32CF531319AA508443E05DB6CBC17E /* IFTTTAnimation.m */,
+				3BF4B820308BE9B85853BEC4315EC305 /* IFTTTAnimator.h */,
+				22268C521F56D6CA41AC43D227A56558 /* IFTTTAnimator.m */,
+				79722F9CF131B29AB284D870357A5692 /* IFTTTBackgroundColorAnimation.h */,
+				251CC9F50C178E5011D83869A0A9E204 /* IFTTTBackgroundColorAnimation.m */,
+				A2AC4C11F531A4883DD6E8D3BD7E7143 /* IFTTTConstraintConstantAnimation.h */,
+				BF485EB06448E0C2EBF733BF2867C16C /* IFTTTConstraintConstantAnimation.m */,
+				2A37333DE82C5E2E0B19E70E607DCAB7 /* IFTTTConstraintMultiplierAnimation.h */,
+				EB816B16E1CCF8652E5333562467FED3 /* IFTTTConstraintMultiplierAnimation.m */,
+				C30246645556366C28EA044A06F6C38B /* IFTTTCornerRadiusAnimation.h */,
+				ADBFFEF5162B94115BA42EF3879606FE /* IFTTTCornerRadiusAnimation.m */,
+				191CB5F08E948A0F73C0D65646E235D1 /* IFTTTEasingFunction.h */,
+				3120A6992B5CFCC5B397C87128BCA4E1 /* IFTTTEasingFunction.m */,
+				7AE5E811B5AA24160EA21130C07EAA42 /* IFTTTFilmstrip.h */,
+				8B8D478B615AD594D9DE7854929CB62F /* IFTTTFilmstrip.m */,
+				2658935ADE1455D9D5420FFF1D0546C3 /* IFTTTFrameAnimation.h */,
+				E4862CDD6EF0CC3083E6752BCF180E51 /* IFTTTFrameAnimation.m */,
+				03DB19CEAAA2AEA6B5F22CC95A05AD13 /* IFTTTHideAnimation.h */,
+				ACA885501675E44D458CE58EF69DBEA2 /* IFTTTHideAnimation.m */,
+				608276616E25CCB5447D9216567E80E9 /* IFTTTInterpolatable.h */,
+				C00D261AF1856706D2E964AE62D3E0A0 /* IFTTTInterpolatable.m */,
+				57A148F9BB890B1C4A5D528B7BE24C59 /* IFTTTJazzHands.h */,
+				599FAAFA3EAE761BDBC2FF563250B858 /* IFTTTLayerFillColorAnimation.h */,
+				B26630F795D9BC61B131225CCA74044A /* IFTTTLayerFillColorAnimation.m */,
+				1A2BD08523EDF2B0A4531C392976E3B8 /* IFTTTLayerStrokeEndAnimation.h */,
+				8441A269A626D2B4E72DFEBA853C70B8 /* IFTTTLayerStrokeEndAnimation.m */,
+				3E658DC53052CAFAA83E6F3C90509200 /* IFTTTLayerStrokeStartAnimation.h */,
+				B80B822D4046388FC53A5A89E028EBFF /* IFTTTLayerStrokeStartAnimation.m */,
+				6A5CE83CBBE31E6AE17769C3C7841586 /* IFTTTMaskAnimation.h */,
+				82039BF4EF64DB763D083C63F84AAF18 /* IFTTTMaskAnimation.m */,
+				2D720BD606D1339EF1932684A1D0F763 /* IFTTTPathPositionAnimation.h */,
+				0A6C12765CA448F070976F05A3FB1213 /* IFTTTPathPositionAnimation.m */,
+				07DFE512BC4A72C4A84FE915566C024B /* IFTTTRotationAnimation.h */,
+				7650C42046D3C6FD96E1BC3740466D59 /* IFTTTRotationAnimation.m */,
+				08B7D3BB4D39CCC83B90D0A34A3A30D6 /* IFTTTScaleAnimation.h */,
+				E53348DA1629388DE61776FACAE0E428 /* IFTTTScaleAnimation.m */,
+				C7B8411E889FCDF577C68C03340478F4 /* IFTTTScrollViewPageConstraintAnimation.h */,
+				B31DD1DB214B13A67DA0D2F41F18D2D4 /* IFTTTScrollViewPageConstraintAnimation.m */,
+				C03C43A57C65120192CD6A85B5B6EB6C /* IFTTTShapeLayerAnimation.h */,
+				5A01A981A535A80E6E575D27DE39C558 /* IFTTTShapeLayerAnimation.m */,
+				E5125B113A7485DE38AB84726AED878E /* IFTTTTextColorAnimation.h */,
+				97BB18E4243D31449BBE5499A578CD6D /* IFTTTTextColorAnimation.m */,
+				0DE2CD8E0EAFC55FA9C6B5724EDAA6B7 /* IFTTTTransform3DAnimation.h */,
+				B425D7F92B816EAF26299F9A2B035AD2 /* IFTTTTransform3DAnimation.m */,
+				46B57BB613C13C1BC872EFFD47F28C18 /* IFTTTTranslationAnimation.h */,
+				4ED2C3A448C4DB1C192B7CEB63F1E620 /* IFTTTTranslationAnimation.m */,
+				BBB198B2AF85EB3A1855668FEBE3956F /* IFTTTViewAnimation.h */,
+				2F9583F06783EECA188E1D56E1020E0B /* IFTTTViewAnimation.m */,
+				F5BC7BE74BC4CBC50F741527A8A2C142 /* UIView+IFTTTJazzHands.h */,
+				E2C123D2C9D95515DD8D3E192080C79E /* UIView+IFTTTJazzHands.m */,
+				C59837EC408218B073499944E88689E2 /* Support Files */,
+			);
+			path = JazzHands;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4E8A9DFE534405B1864A97C9290FDD27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939F14931368971F765611E5E15C529A /* IFTTTAlphaAnimation.h in Headers */,
+				C61C57C7D906B45B2B27C4B4A18F20F5 /* IFTTTAnimatable.h in Headers */,
+				1AE830CC94FAEE49353F530021BAA768 /* IFTTTAnimatedPagingScrollViewController.h in Headers */,
+				5BD933B5D78CF6718FAFE6C7051DD42B /* IFTTTAnimatedScrollViewController.h in Headers */,
+				986E8EB0922940A84CB02CDC90637417 /* IFTTTAnimation.h in Headers */,
+				91CAD4F39D01183D916F62832E9B02EC /* IFTTTAnimator.h in Headers */,
+				220300DDAA3664D9B4F539C0072ADE51 /* IFTTTBackgroundColorAnimation.h in Headers */,
+				29A256FA3C417F2E291DCA65EC962E19 /* IFTTTConstraintConstantAnimation.h in Headers */,
+				E2586B00A09072FDC6AD43536C2B5AD5 /* IFTTTConstraintMultiplierAnimation.h in Headers */,
+				788D6563764DC1EE7B4D2E9481F1E33E /* IFTTTCornerRadiusAnimation.h in Headers */,
+				DD4CE2ABF57761A400A08127334DA184 /* IFTTTEasingFunction.h in Headers */,
+				543DA1181B6D1C527025847960F5CB0B /* IFTTTFilmstrip.h in Headers */,
+				B6CD099DE8D124CCB7EC4E2B1D77AA07 /* IFTTTFrameAnimation.h in Headers */,
+				CAD91A6D3EEBA461F0EDE4D09DBD40CE /* IFTTTHideAnimation.h in Headers */,
+				5EF98BE5E6D9DBA4136E9B5B6533C808 /* IFTTTInterpolatable.h in Headers */,
+				453573024F0C6F2F13A4195A140552E3 /* IFTTTJazzHands.h in Headers */,
+				2880598EC138C93D92456EDD37E0F4BF /* IFTTTLayerFillColorAnimation.h in Headers */,
+				43A0BE7AD83F9DB2A85564BA580BB2CE /* IFTTTLayerStrokeEndAnimation.h in Headers */,
+				6B6DC0E2B756FE16DE36657649FAA4B9 /* IFTTTLayerStrokeStartAnimation.h in Headers */,
+				D56B5B45ACF7952F6AB612777DFD1143 /* IFTTTMaskAnimation.h in Headers */,
+				6D3D61267F1CE32FF67A6D6062AE877E /* IFTTTPathPositionAnimation.h in Headers */,
+				A26E5B0A6D7709BC56B91683F5F02EC7 /* IFTTTRotationAnimation.h in Headers */,
+				1B33E485F834BB568EEF5F8C59BAA009 /* IFTTTScaleAnimation.h in Headers */,
+				BBDA82DA8601236CC443DE5E08DB8564 /* IFTTTScrollViewPageConstraintAnimation.h in Headers */,
+				D686F5C10A6594242A4CE3A7750E881F /* IFTTTShapeLayerAnimation.h in Headers */,
+				F5483F60B25F036C608897C39246337B /* IFTTTTextColorAnimation.h in Headers */,
+				B98F1804380399E86FA8464A00BFB506 /* IFTTTTransform3DAnimation.h in Headers */,
+				99256A9D99750ED2050B9A04435075C6 /* IFTTTTranslationAnimation.h in Headers */,
+				44CED658C6E4F6EA6B4F1516E37FC687 /* IFTTTViewAnimation.h in Headers */,
+				28DC8D5FAF60F348B6351B246FC07517 /* UIView+IFTTTJazzHands.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FE98DA1D3E1F74D383810AE075F61C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5031403AFCF4EE79CD63A3F03C130EC0 /* MagicalImportFunctions.h in Headers */,
+				7822D7910C1AF4B7AC29393A1C87483B /* MagicalRecord+Actions.h in Headers */,
+				617310EC07C4687486484D2C0373C74E /* MagicalRecord+ErrorHandling.h in Headers */,
+				A8DFE702763163FEA1AC0827A4A18C6E /* MagicalRecord+Options.h in Headers */,
+				0F52A3DC384B2800B8B7E9EF42ADAEDA /* MagicalRecord+Setup.h in Headers */,
+				1FB90F2E567A2E483FABF6FC891E73DF /* MagicalRecord+ShorthandMethods.h in Headers */,
+				80CA713397A7FA3AD1F992D8CABA44E6 /* MagicalRecord+iCloud.h in Headers */,
+				F96CA49AA68029DA19961B1F843BA85D /* MagicalRecord.h in Headers */,
+				1ED2CB16BB86D05FA820DCE09695620D /* MagicalRecordDeprecationMacros.h in Headers */,
+				935CCB603DBF5F03F8F3ADD6E27A3249 /* MagicalRecordInternal.h in Headers */,
+				1243BA4546F54A721FF451745D733ECB /* MagicalRecordLogging.h in Headers */,
+				A38A074B1197D5A6F78A96E338F39431 /* MagicalRecordShorthandMethodAliases.h in Headers */,
+				359204763F53320D46CCD075CE606070 /* NSAttributeDescription+MagicalDataImport.h in Headers */,
+				4F7BCC9D37EBCE0C724DE16842EE4097 /* NSEntityDescription+MagicalDataImport.h in Headers */,
+				47817F621E8A546C0EEE1C8394FA193B /* NSManagedObject+MagicalAggregation.h in Headers */,
+				68C59B70AA2DF7E5C67B63DB9C3EC87B /* NSManagedObject+MagicalDataImport.h in Headers */,
+				0F208A4BCF4F407AEB01983C9A194707 /* NSManagedObject+MagicalFinders.h in Headers */,
+				26A0679DCFB2F51B766242CB8A1E082C /* NSManagedObject+MagicalRecord.h in Headers */,
+				C91EE21544F270D56C5DD225CB49700F /* NSManagedObject+MagicalRequests.h in Headers */,
+				9A7BD6453F658D1B31A8327C3805B9B4 /* NSManagedObjectContext+MagicalChainSave.h in Headers */,
+				3B1E9F4381BCD8520D4DFD93293CEC63 /* NSManagedObjectContext+MagicalObserving.h in Headers */,
+				D96E2DF67332782A53BF304E68A83AED /* NSManagedObjectContext+MagicalRecord.h in Headers */,
+				D0AFEB3E7ECECA29DED1FFFF342CAF11 /* NSManagedObjectContext+MagicalSaves.h in Headers */,
+				DE1D0DEDD6389E4E40D9C32018D6D6E1 /* NSManagedObjectContext+MagicalThreading.h in Headers */,
+				39557E667FC4C5AA8F525A68C793C0F4 /* NSManagedObjectModel+MagicalRecord.h in Headers */,
+				3390ADB578281E569B5BED6DD2E2DE9B /* NSNumber+MagicalDataImport.h in Headers */,
+				458043A8DE4A44C4B837A327AAA3EF20 /* NSObject+MagicalDataImport.h in Headers */,
+				2BD78694F814BAAD8A238F54BC7C84D4 /* NSPersistentStore+MagicalRecord.h in Headers */,
+				257C7BF6F44117D9FCD935CCDCA5ABC4 /* NSPersistentStoreCoordinator+MagicalRecord.h in Headers */,
+				83E0AE9EC65C46EF9FE05CC6C15EA86F /* NSRelationshipDescription+MagicalDataImport.h in Headers */,
+				54222A3A7FF6B209932F72C031BF3C2F /* NSString+MagicalDataImport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF2D5C4936C248968BDF0719DD63248 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A069B3D7B12912C23B8B2E105A5E5487 /* JTCalendar.h in Headers */,
+				199590E89B89CC9D80F93DC85C5D705F /* JTCalendarDay.h in Headers */,
+				9499B87E0E289B0C332C05E3E32A661E /* JTCalendarDayView.h in Headers */,
+				1D7BFC416A58708562CF04068CECC643 /* JTCalendarDelegate.h in Headers */,
+				8A67B5F563D5D8874A60EC640483AACB /* JTCalendarDelegateManager.h in Headers */,
+				D4D7211A6A6C64FF46F059D067D8F166 /* JTCalendarManager.h in Headers */,
+				D16AB4123463AA730777570F66CFB30B /* JTCalendarMenuView.h in Headers */,
+				7DD08D30444392A197FD90CA2B4A4C18 /* JTCalendarPage.h in Headers */,
+				DF8A244C4EEC202482BAADEF85EB38F1 /* JTCalendarPageView.h in Headers */,
+				630F27CE0DD9A15C6E6F5602C14F2E8D /* JTCalendarScrollManager.h in Headers */,
+				FCA1AD89BD77FBF3FCF54F838DD83C7D /* JTCalendarSettings.h in Headers */,
+				EC43454D6391280202BE0BFB6968D8F2 /* JTCalendarWeek.h in Headers */,
+				FDF6EB870741C4CD99438A3ADD5EC659 /* JTCalendarWeekDay.h in Headers */,
+				D2FE4DEC1FF15A9FB7463DBC09DE98B9 /* JTCalendarWeekDayView.h in Headers */,
+				C4277CCCC530D2BB12B57C6819D4C634 /* JTCalendarWeekView.h in Headers */,
+				ECCE8164BA2A80626B90E3EE68C79EEA /* JTContent.h in Headers */,
+				8CE48F6630BC12A45C7894F694F18566 /* JTDateHelper.h in Headers */,
+				ECFFF67B5EEA58D2544079CB2A378A09 /* JTHorizontalCalendarView.h in Headers */,
+				CA140D37BB63F5E3789F7F06B9512349 /* JTMenu.h in Headers */,
+				08CE27802681835B9F2EF19F8958DF7E /* JTVerticalCalendarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02A36055CF94C38B702FBD25D83AF8D7 /* Pods-HourlyCalculation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495ADB505483C40FBD7F8AF7D4481D30 /* Build configuration list for PBXNativeTarget "Pods-HourlyCalculation" */;
+			buildPhases = (
+				BB2AF706AC8B8A762970678EB510F679 /* Sources */,
+				785D6AED197E67232B3C9DAADF1E0664 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				642A77709296370A433852F27A54F91A /* PBXTargetDependency */,
+				1BC13B7D3FDED9C09904B82193E1CEE4 /* PBXTargetDependency */,
+				1192265281E970C529EAD5211EF730F9 /* PBXTargetDependency */,
+			);
+			name = "Pods-HourlyCalculation";
+			productName = "Pods-HourlyCalculation";
+			productReference = 9F79F7382210809B6C02FC95D64088E8 /* libPods-HourlyCalculation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4A37C403D3322456FDE01672BBA72DAF /* MagicalRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51F5C1A850EA59FC211244A56CF4BF5C /* Build configuration list for PBXNativeTarget "MagicalRecord" */;
+			buildPhases = (
+				310F145A094550BA2172B0E07E244F48 /* Sources */,
+				421697BB440C0EDD8C3E414498CE6ED1 /* Frameworks */,
+				66FE98DA1D3E1F74D383810AE075F61C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicalRecord;
+			productName = MagicalRecord;
+			productReference = 37040B3122C6BFE536DF7975A5DDA571 /* libMagicalRecord.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BFECF1B6D77B894DB9860F1202146FF7 /* JazzHands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0B339A68A974D0EE9FCDAB0271522B0 /* Build configuration list for PBXNativeTarget "JazzHands" */;
+			buildPhases = (
+				0D90AA5BC836AFC3B5530C9AC00D42FB /* Sources */,
+				4CFDD865973D5A1021594D9B827030B2 /* Frameworks */,
+				4E8A9DFE534405B1864A97C9290FDD27 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JazzHands;
+			productName = JazzHands;
+			productReference = C170695B7ED0E15B367E12C149808323 /* libJazzHands.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E9F2B9C503360BE9C750538EB55F82BF /* JTCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E555E9A741D3756B0E544F4D0DFA230 /* Build configuration list for PBXNativeTarget "JTCalendar" */;
+			buildPhases = (
+				1C16AEA3D3776F5720DCC7C5307BFB4E /* Sources */,
+				27A5029C9ADBF169C6EE13AC47B7A07A /* Frameworks */,
+				ECF2D5C4936C248968BDF0719DD63248 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTCalendar;
+			productName = JTCalendar;
+			productReference = 85E40C4FB41E3F4BC26DE4FBEEED9C73 /* libJTCalendar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F2B9C503360BE9C750538EB55F82BF /* JTCalendar */,
+				BFECF1B6D77B894DB9860F1202146FF7 /* JazzHands */,
+				4A37C403D3322456FDE01672BBA72DAF /* MagicalRecord */,
+				02A36055CF94C38B702FBD25D83AF8D7 /* Pods-HourlyCalculation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D90AA5BC836AFC3B5530C9AC00D42FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE34C5272294918C49C4CE62B52313C1 /* IFTTTAlphaAnimation.m in Sources */,
+				6FBA579E55372C59387C502B488B62D9 /* IFTTTAnimatedPagingScrollViewController.m in Sources */,
+				ADA40E0AC47E51C1B6EFDDB3F34BB146 /* IFTTTAnimatedScrollViewController.m in Sources */,
+				038339AE7E3BA1FDAF8D817501D2BFD1 /* IFTTTAnimation.m in Sources */,
+				7FD21DF057FD7963D721AFFA42F9C363 /* IFTTTAnimator.m in Sources */,
+				90861358D599F9B206D1C9B6C14722C1 /* IFTTTBackgroundColorAnimation.m in Sources */,
+				5EEA21AEEA3613A4792F1A404AF46613 /* IFTTTConstraintConstantAnimation.m in Sources */,
+				C33765DE1429439AF307D6AC23E22C30 /* IFTTTConstraintMultiplierAnimation.m in Sources */,
+				B3AA38556A29B22203A7B1C6D9D9A8E1 /* IFTTTCornerRadiusAnimation.m in Sources */,
+				766613D898668B79BBB09A3CA4892EF6 /* IFTTTEasingFunction.m in Sources */,
+				2BDAB46C1D1BEF8F39E30BE97D67CBA0 /* IFTTTFilmstrip.m in Sources */,
+				8AF83958DA1124B3FF5D3A9945874618 /* IFTTTFrameAnimation.m in Sources */,
+				C7C0186888CA7EB09161166565AD2591 /* IFTTTHideAnimation.m in Sources */,
+				3485474876DE150D7BF40C29EA872048 /* IFTTTInterpolatable.m in Sources */,
+				E6A18B75B974A1AD3171BABE4B58EB87 /* IFTTTLayerFillColorAnimation.m in Sources */,
+				CEA7F6E669960C7E4320EA8B3B88E4B1 /* IFTTTLayerStrokeEndAnimation.m in Sources */,
+				74A18DE72CF533245929BDCA4B83F74A /* IFTTTLayerStrokeStartAnimation.m in Sources */,
+				2CF296F303E94B7B338ECFDE64860480 /* IFTTTMaskAnimation.m in Sources */,
+				04327154F166975A9C0E98E03A76286C /* IFTTTPathPositionAnimation.m in Sources */,
+				4E046BBEB57DB21DED81FB664E8AC399 /* IFTTTRotationAnimation.m in Sources */,
+				E9D298D534D81E45F19B81358AE53F5E /* IFTTTScaleAnimation.m in Sources */,
+				F64D9FD49DACBE279A4A9701CE13D384 /* IFTTTScrollViewPageConstraintAnimation.m in Sources */,
+				1B3299116BAF8F702B57ED9AF5ABC8FD /* IFTTTShapeLayerAnimation.m in Sources */,
+				00035A65AC1449426850F4FE72ABE1C5 /* IFTTTTextColorAnimation.m in Sources */,
+				46EF2FC537AD3B1D7B8436801455B880 /* IFTTTTransform3DAnimation.m in Sources */,
+				609A96660B269FB862D89CAF148B25F2 /* IFTTTTranslationAnimation.m in Sources */,
+				19D32C04FAF672577B7F6564B9ABD8AC /* IFTTTViewAnimation.m in Sources */,
+				6FB015CCBF14E5B4B30D01D38284B3F6 /* JazzHands-dummy.m in Sources */,
+				D80B500F49F7F6B16C06BE5DC6A48147 /* UIView+IFTTTJazzHands.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C16AEA3D3776F5720DCC7C5307BFB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140930E6718A9F4C2C2608BC30091C09 /* JTCalendar-dummy.m in Sources */,
+				D82F53B4DF9B47BB6ED900E15E2B06A9 /* JTCalendarDayView.m in Sources */,
+				EF3BE38C1562E6D6F4D8DD547BE18D74 /* JTCalendarDelegateManager.m in Sources */,
+				0F9E86F72193767BEA2BCE91169165E3 /* JTCalendarManager.m in Sources */,
+				656846E38CF0D1E0419BE19E669D0C38 /* JTCalendarMenuView.m in Sources */,
+				4F3FAAFAE1DC053E29126D00F4CC039E /* JTCalendarPageView.m in Sources */,
+				E6981C4D284538B27E0B3DF46E9A47A2 /* JTCalendarScrollManager.m in Sources */,
+				F815DCD3F3BE33EB87B439CC2A164105 /* JTCalendarSettings.m in Sources */,
+				E1B9F0BD91B6A50AFFD766267BD6C4DC /* JTCalendarWeekDayView.m in Sources */,
+				8514C0A91C6D9A31B4F45BBD62F7AFE9 /* JTCalendarWeekView.m in Sources */,
+				931124406A2B4AFDD0648AFA2B8B2A4C /* JTDateHelper.m in Sources */,
+				64398A86E925D9CB59B1F9CB81A4B51B /* JTHorizontalCalendarView.m in Sources */,
+				8F72D03D075831D9D5432EBE21334B80 /* JTVerticalCalendarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310F145A094550BA2172B0E07E244F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AFA9EDF794C1CC3667A92621002DEB /* MagicalImportFunctions.m in Sources */,
+				BE083B4C6E8846D2F03084F75E424985 /* MagicalRecord+Actions.m in Sources */,
+				B0F6E714F24714752AA79C532A0ADF04 /* MagicalRecord+ErrorHandling.m in Sources */,
+				3211F72E15F5D7265BD58D1225E00CBF /* MagicalRecord+Options.m in Sources */,
+				5F4877E40FBB2E7E1D70C984DAA2056E /* MagicalRecord+Setup.m in Sources */,
+				6690DD797195632E1C81C5CAC226DDAC /* MagicalRecord+ShorthandMethods.m in Sources */,
+				C21C065074BFF546476A6A5D4BEAECC2 /* MagicalRecord+iCloud.m in Sources */,
+				30A13CAAEFCAA5150169892ECC14B5FD /* MagicalRecord-dummy.m in Sources */,
+				59852E4F4191FEED14F20D48DD83AD93 /* MagicalRecordInternal.m in Sources */,
+				8A89F33C3840310C39DB36CC9FB5B504 /* NSAttributeDescription+MagicalDataImport.m in Sources */,
+				7626903763AA3EB4C2BDC3D0A14856BF /* NSEntityDescription+MagicalDataImport.m in Sources */,
+				019A7A1B87BB1CAFD16C590BB92486E8 /* NSManagedObject+MagicalAggregation.m in Sources */,
+				7E0E5E935BBE4CFCBA13DE1DFF2D24BE /* NSManagedObject+MagicalDataImport.m in Sources */,
+				902B8214CF499B0CAFCD1A34B5C1102F /* NSManagedObject+MagicalFinders.m in Sources */,
+				9F44A4BF03CD1D6969F5B880AF9EBC0B /* NSManagedObject+MagicalRecord.m in Sources */,
+				F90DED09504A16BF473B970C5CCD79C9 /* NSManagedObject+MagicalRequests.m in Sources */,
+				99A24B35F1F3986F5C62A8C001122D89 /* NSManagedObjectContext+MagicalChainSave.m in Sources */,
+				FC9C52D481C707EA29A3A26C3C14D085 /* NSManagedObjectContext+MagicalObserving.m in Sources */,
+				6012F8F1C8F81D9FFA1239D8DA0EBF0A /* NSManagedObjectContext+MagicalRecord.m in Sources */,
+				02D509407F61BAD1CB33397CA840E29A /* NSManagedObjectContext+MagicalSaves.m in Sources */,
+				860D0970AB55B1D07F4CC07442CE48ED /* NSManagedObjectContext+MagicalThreading.m in Sources */,
+				6F020C27B8E30CD364121A006536B466 /* NSManagedObjectModel+MagicalRecord.m in Sources */,
+				6C24B8045C30D1F135B12DDE7612509F /* NSNumber+MagicalDataImport.m in Sources */,
+				7939D363682CDFAF5018D6DF242E8BE3 /* NSObject+MagicalDataImport.m in Sources */,
+				2A0F07BFBB8F813FDD140BB62E02BA10 /* NSPersistentStore+MagicalRecord.m in Sources */,
+				834D9D493E846CF681650ED865C74794 /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */,
+				57EB92537F7DDE60CBE4672B2F632DAD /* NSRelationshipDescription+MagicalDataImport.m in Sources */,
+				0A2255051D438F695DEFD56940263684 /* NSString+MagicalDataImport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2AF706AC8B8A762970678EB510F679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDE1E195D89C76D0649BCDB1F90C643 /* Pods-HourlyCalculation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1192265281E970C529EAD5211EF730F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MagicalRecord;
+			target = 4A37C403D3322456FDE01672BBA72DAF /* MagicalRecord */;
+			targetProxy = 0E886815B86FFE62AD37A116DC7E1314 /* PBXContainerItemProxy */;
+		};
+		1BC13B7D3FDED9C09904B82193E1CEE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JazzHands;
+			target = BFECF1B6D77B894DB9860F1202146FF7 /* JazzHands */;
+			targetProxy = 12F44170E73288EC1BA5AAE35FDD1D1F /* PBXContainerItemProxy */;
+		};
+		642A77709296370A433852F27A54F91A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTCalendar;
+			target = E9F2B9C503360BE9C750538EB55F82BF /* JTCalendar */;
+			targetProxy = 30B2BB522C4AA00BD4C7B5E17E9F6641 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DAF7CC318EE64E4E7A133C2000F9310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F25616F7A484DB1C538B02A233356295 /* MagicalRecord-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MagicalRecord/MagicalRecord-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		276B018A8AA8813841B0EA9CA687D31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E6411E955A6CCC7298B6462F3F916D /* JazzHands-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JazzHands/JazzHands-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		52B8884E540A0529033D05A8DA0B0EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E6411E955A6CCC7298B6462F3F916D /* JazzHands-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JazzHands/JazzHands-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		841AFF0503405F3373CCAEEC905134CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5202F87267CF9C87B8C19D0AA25B2697 /* JTCalendar-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTCalendar/JTCalendar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		914B8E917BB23A96A21F6D96FED8A1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3F26DA37D9AD86058E7D6ECB8F5755 /* Pods-HourlyCalculation.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A0E63E67290DE2A0478DFFD9D2990F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F25616F7A484DB1C538B02A233356295 /* MagicalRecord-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MagicalRecord/MagicalRecord-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C45527D03162CC771ACE1EFB85EF5174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D97C2FD10D412F2D34600D6A330B3F76 /* Pods-HourlyCalculation.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EDCA4F356BB6DD333C9EEF0000678656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5202F87267CF9C87B8C19D0AA25B2697 /* JTCalendar-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTCalendar/JTCalendar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495ADB505483C40FBD7F8AF7D4481D30 /* Build configuration list for PBXNativeTarget "Pods-HourlyCalculation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45527D03162CC771ACE1EFB85EF5174 /* Debug */,
+				914B8E917BB23A96A21F6D96FED8A1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51F5C1A850EA59FC211244A56CF4BF5C /* Build configuration list for PBXNativeTarget "MagicalRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DAF7CC318EE64E4E7A133C2000F9310 /* Debug */,
+				A0E63E67290DE2A0478DFFD9D2990F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E555E9A741D3756B0E544F4D0DFA230 /* Build configuration list for PBXNativeTarget "JTCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCA4F356BB6DD333C9EEF0000678656 /* Debug */,
+				841AFF0503405F3373CCAEEC905134CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0B339A68A974D0EE9FCDAB0271522B0 /* Build configuration list for PBXNativeTarget "JazzHands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276B018A8AA8813841B0EA9CA687D31D /* Debug */,
+				52B8884E540A0529033D05A8DA0B0EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
